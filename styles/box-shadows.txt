@@ -1,0 +1,11 @@
+1.Red color card
+
+box-shadow: 0 10px 25px 0 rgba(201,25,46,0.3);
+background-image: linear-gradient(to top, #ac1828, #bb1729, #cb1629, #da1429, #ea1329);
+hover : box-shadow: 0 20px 30px 0 rgba(201,25,46,0.25);
+
+2. Dark Blue card
+
+box-shadow: 0 10px 25px 0 rgba(28,54,111,0.3);
+background-image: linear-gradient(to top, #1c366f, #1d4681, #1d5792, #1c68a3, #1d79b4);
+box-shadow: 0 20px 30px 0 rgba(28,54,111,0.25);
