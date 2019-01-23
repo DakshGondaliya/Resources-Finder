@@ -43,7 +43,8 @@ body {
 
 .ref-heading {
   //  text-align: center;
-  margin-left: 3%;
+  margin-left: 4.15%;
+
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
@@ -57,16 +58,12 @@ hr {
   box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
 }
 
-.row {
-  // display: flex;
-}
-
 .card {
-  //  position: relative;
+  position: relative;
   margin: 2% 4.15%;
   transition: 0.4s;
-  width: 300px !important;
-  height: 200px;
+  width: 300px;
+  height: 210px;
   border-radius: 20px;
   padding: 2px 16px;
 }
@@ -146,63 +143,29 @@ hr {
     border-top: 3px solid rgba(58, 201, 185, 0.3);
   }
 
-  .card-1:hover {
-    box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
-  }
-
-  .card-2:hover {
-    box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
-  }
-
-  .card-3:hover {
-    box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
-  }
-
-  .card-4:hover {
-    box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
-  }
-
-  .card-5:hover {
-    box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
-  }
-
-  .card-6:hover {
-    box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
-  }
-
-  .card-7:hover {
-    box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
-  }
-
-  .card-8:hover {
-    box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
-  }
-
-  .card-9:hover {
-    box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
-  }
-
-  .card-10:hover {
-    box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
-  }
-
+  .card-1:hover,
+  .card-6:hover,
   .card-11:hover {
     box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
   }
 
-  .card-12:hover {
+  .card-2:hover,
+  .card-7:hover {
     box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
   }
 
-  .card-13:hover {
+  .card-3:hover,
+  .card-8:hover {
     box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
   }
 
-  .card-14:hover {
+  .card-4:hover,
+  .card-9:hover {
     box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
   }
 
-  .card-15:hover {
+  .card-5:hover,
+  .card-10:hover {
     box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
   }
 }
