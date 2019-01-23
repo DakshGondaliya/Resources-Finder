@@ -53,20 +53,20 @@ body {
 hr {
   width: 100%;
   border: 0;
-  height: 2px;
+  height: 1.8px;
   box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
 }
 
 .row {
-  display: flex;
+  // display: flex;
 }
 
 .card {
   //  position: relative;
-  margin: 2% 3%;
+  margin: 2% 4.15%;
   transition: 0.4s;
-  width: 400px !important;
-  height: 250px;
+  width: 300px !important;
+  height: 200px;
   border-radius: 20px;
   padding: 2px 16px;
 }
@@ -76,15 +76,17 @@ hr {
 }
 
 .text {
-  margin-top: 15%;
+  margin-top: 8%;
   color: #000;
   vertical-align: left;
+
   .element-name {
     font-size: 1rem;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: oblique;
   }
+
   .description {
     font-size: 0.75rem;
     font-family: "Montserrat", sans-serif;
@@ -107,6 +109,7 @@ hr {
 .container-2,
 .container-3 {
   display: flex;
+
   .card-1,
   .card-6,
   .card-11 {
@@ -114,72 +117,91 @@ hr {
     background-color: #fff;
     border-top: 3px solid rgba(201, 25, 46, 0.3); //  background-image: linear-gradient(to top, #ac1828, #bb1729, #cb1629, #da1429, #ea1329);
   }
+
   .card-2,
   .card-7 {
     box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.3);
     background-color: #fff;
     border-top: 3px solid rgba(28, 54, 111, 0.3); //  background-image: linear-gradient(to top, #1c366f, #1d4681, #1d5792, #1c68a3, #1d79b4);
   }
+
   .card-3,
   .card-8 {
     box-shadow: 0 10px 25px 0 rgba(27, 169, 76, 0.3);
     background-color: #fff;
     border-top: 3px solid rgba(27, 169, 76, 0.3);
   }
+
   .card-4,
   .card-9 {
     box-shadow: 0 10px 25px 0 rgba(196, 61, 125, 0.3);
     background-color: #fff;
     border-top: 3px solid rgba(196, 61, 125, 0.3);
   }
+
   .card-5,
   .card-10 {
     box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.3);
     background-color: #fff;
     border-top: 3px solid rgba(58, 201, 185, 0.3);
   }
+
   .card-1:hover {
     box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
   }
+
   .card-2:hover {
     box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
   }
+
   .card-3:hover {
     box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
   }
+
   .card-4:hover {
     box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
   }
+
   .card-5:hover {
     box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
   }
+
   .card-6:hover {
     box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
   }
+
   .card-7:hover {
     box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
   }
+
   .card-8:hover {
     box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
   }
+
   .card-9:hover {
     box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
   }
+
   .card-10:hover {
     box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
   }
+
   .card-11:hover {
     box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
   }
+
   .card-12:hover {
     box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
   }
+
   .card-13:hover {
     box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
   }
+
   .card-14:hover {
     box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
   }
+
   .card-15:hover {
     box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
   }
@@ -189,7 +211,7 @@ hr {
   position: relative;
   top: 0;
   float: right;
-  margin-top: -3.2em;
+  margin-top: -2.5em;
   width: 45px;
   z-index: 0;
 }

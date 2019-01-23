@@ -54,23 +54,17 @@ body {
 hr {
   width: 100%;
   border: 0;
-  height: 2px;
+  height: 1.8px;
   -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
           box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
 }
 
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .card {
-  margin: 2% 3%;
+  margin: 2% 4.15%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  width: 400px !important;
-  height: 250px;
+  width: 300px !important;
+  height: 200px;
   border-radius: 20px;
   padding: 2px 16px;
 }
@@ -80,7 +74,7 @@ hr {
 }
 
 .text {
-  margin-top: 15%;
+  margin-top: 8%;
   color: #000;
   vertical-align: left;
 }
@@ -289,7 +283,7 @@ hr {
   position: relative;
   top: 0;
   float: right;
-  margin-top: -3.2em;
+  margin-top: -2.5em;
   width: 45px;
   z-index: 0;
 }
