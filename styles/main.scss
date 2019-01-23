@@ -48,8 +48,8 @@ body {
 
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Lato", sans-serif;
-  letter-spacing: 0.1em;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.15em;
 }
 
 hr {
@@ -61,7 +61,7 @@ hr {
 
 .card {
   position: relative;
-  margin: 2% 4.15%;
+  margin: 2.5% 4.15%;
   transition: 0.4s;
   width: 300px;
   height: 210px;
@@ -101,6 +101,10 @@ hr {
 
 .big-container {
   width: 100%;
+}
+
+.row-1 {
+  margin-top: 1.25%;
 }
 
 .container-1,
