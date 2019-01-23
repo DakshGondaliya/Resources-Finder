@@ -129,6 +129,7 @@ hr {
   -webkit-box-shadow: 0 10px 25px 0 rgba(201, 25, 46, 0.3);
           box-shadow: 0 10px 25px 0 rgba(201, 25, 46, 0.3);
   background-color: #fff;
+  border-top: 3px solid rgba(201, 25, 46, 0.3);
 }
 
 .container-1 .card-2,
@@ -140,6 +141,7 @@ hr {
   -webkit-box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.3);
           box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.3);
   background-color: #fff;
+  border-top: 3px solid rgba(28, 54, 111, 0.3);
 }
 
 .container-1 .card-3,
@@ -151,6 +153,7 @@ hr {
   -webkit-box-shadow: 0 10px 25px 0 rgba(27, 169, 76, 0.3);
           box-shadow: 0 10px 25px 0 rgba(27, 169, 76, 0.3);
   background-color: #fff;
+  border-top: 3px solid rgba(27, 169, 76, 0.3);
 }
 
 .container-1 .card-4,
@@ -162,6 +165,7 @@ hr {
   -webkit-box-shadow: 0 10px 25px 0 rgba(196, 61, 125, 0.3);
           box-shadow: 0 10px 25px 0 rgba(196, 61, 125, 0.3);
   background-color: #fff;
+  border-top: 3px solid rgba(196, 61, 125, 0.3);
 }
 
 .container-1 .card-5,
@@ -173,6 +177,7 @@ hr {
   -webkit-box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.3);
           box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.3);
   background-color: #fff;
+  border-top: 3px solid rgba(58, 201, 185, 0.3);
 }
 
 .container-1 .card-1:hover,
@@ -284,7 +289,7 @@ hr {
   position: relative;
   top: 0;
   float: right;
-  margin-top: -3em;
+  margin-top: -3.2em;
   width: 45px;
   z-index: 0;
 }
