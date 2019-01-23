@@ -44,6 +44,7 @@ body {
 }
 
 .ref-heading {
+  margin-top: 2.5em;
   margin-left: 4.15%;
   text-decoration: none;
   text-transform: uppercase;
@@ -97,7 +98,7 @@ hr {
 }
 
 #spcmar {
-  margin-top: 150px;
+  margin-top: 150px !important;
 }
 
 .big-container {
@@ -121,8 +122,8 @@ hr {
 .container-3 .card-1,
 .container-3 .card-6,
 .container-3 .card-11 {
-  -webkit-box-shadow: 0 10px 25px 0 rgba(201, 25, 46, 0.3);
-          box-shadow: 0 10px 25px 0 rgba(201, 25, 46, 0.3);
+  -webkit-box-shadow: 0 10px 25px 0 rgba(201, 25, 46, 0.2);
+          box-shadow: 0 10px 25px 0 rgba(201, 25, 46, 0.2);
   background-color: #fff;
   border-top: 3px solid rgba(201, 25, 46, 0.3);
 }
@@ -133,8 +134,8 @@ hr {
 .container-2 .card-7,
 .container-3 .card-2,
 .container-3 .card-7 {
-  -webkit-box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.3);
-          box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.3);
+  -webkit-box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.2);
+          box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.2);
   background-color: #fff;
   border-top: 3px solid rgba(28, 54, 111, 0.3);
 }
@@ -145,8 +146,8 @@ hr {
 .container-2 .card-8,
 .container-3 .card-3,
 .container-3 .card-8 {
-  -webkit-box-shadow: 0 10px 25px 0 rgba(27, 169, 76, 0.3);
-          box-shadow: 0 10px 25px 0 rgba(27, 169, 76, 0.3);
+  -webkit-box-shadow: 0 10px 25px 0 rgba(27, 169, 76, 0.2);
+          box-shadow: 0 10px 25px 0 rgba(27, 169, 76, 0.2);
   background-color: #fff;
   border-top: 3px solid rgba(27, 169, 76, 0.3);
 }
@@ -157,8 +158,8 @@ hr {
 .container-2 .card-9,
 .container-3 .card-4,
 .container-3 .card-9 {
-  -webkit-box-shadow: 0 10px 25px 0 rgba(196, 61, 125, 0.3);
-          box-shadow: 0 10px 25px 0 rgba(196, 61, 125, 0.3);
+  -webkit-box-shadow: 0 10px 25px 0 rgba(196, 61, 125, 0.2);
+          box-shadow: 0 10px 25px 0 rgba(196, 61, 125, 0.2);
   background-color: #fff;
   border-top: 3px solid rgba(196, 61, 125, 0.3);
 }
@@ -169,8 +170,8 @@ hr {
 .container-2 .card-10,
 .container-3 .card-5,
 .container-3 .card-10 {
-  -webkit-box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.3);
-          box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.3);
+  -webkit-box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.2);
+          box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.2);
   background-color: #fff;
   border-top: 3px solid rgba(58, 201, 185, 0.3);
 }
