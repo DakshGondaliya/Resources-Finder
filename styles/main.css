@@ -10,8 +10,8 @@ body {
   margin: 0 auto;
   height: 85px;
   background-color: #fff;
-  -webkit-box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
-          box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 1px 20px 0 rgba(46, 61, 73, 0.2);
+          box-shadow: 0 1px 20px 0 rgba(46, 61, 73, 0.2);
   position: fixed;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -35,13 +35,13 @@ body {
   margin-left: 3%;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   letter-spacing: 0.1em;
 }
 
 hr {
   border: 0;
-  height: 1.5px;
+  height: 2px;
   -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
           box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
 }
@@ -74,14 +74,14 @@ hr {
 
 .text .element-name {
   font-size: 1rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: oblique;
 }
 
 .text .description {
   font-size: 0.75rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .card:hover {
@@ -92,64 +92,77 @@ hr {
   margin-top: 120px;
 }
 
-.container-1 {
+.container-1,
+.container-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.container-1 .card-1 {
+.container-1 .card-1,
+.container-1 card-6,
+.container-2 .card-1,
+.container-2 card-6 {
   -webkit-box-shadow: 0 10px 25px 0 rgba(201, 25, 46, 0.3);
           box-shadow: 0 10px 25px 0 rgba(201, 25, 46, 0.3);
   background-color: #fff;
 }
 
-.container-1 .card-2 {
+.container-1 .card-2,
+.container-2 .card-2 {
   -webkit-box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.3);
           box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.3);
   background-color: #fff;
 }
 
-.container-1 .card-3 {
+.container-1 .card-3,
+.container-2 .card-3 {
   -webkit-box-shadow: 0 10px 25px 0 rgba(27, 169, 76, 0.3);
           box-shadow: 0 10px 25px 0 rgba(27, 169, 76, 0.3);
   background-color: #fff;
 }
 
-.container-1 .card-4 {
-  -webkit-box-shadow: 0 10px 25px 0 rgba(201, 25, 46, 0.3);
-          box-shadow: 0 10px 25px 0 rgba(201, 25, 46, 0.3);
+.container-1 .card-4,
+.container-2 .card-4 {
+  -webkit-box-shadow: 0 10px 25px 0 rgba(196, 61, 125, 0.3);
+          box-shadow: 0 10px 25px 0 rgba(196, 61, 125, 0.3);
   background-color: #fff;
 }
 
-.container-1 .card-5 {
-  -webkit-box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.3);
-          box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.3);
+.container-1 .card-5,
+.container-2 .card-5 {
+  -webkit-box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.3);
+          box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.3);
   background-color: #fff;
 }
 
-.container-1 .card-1:hover {
+.container-1 .card-1:hover,
+.container-2 .card-1:hover {
   -webkit-box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
           box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
 }
 
-.container-1 .card-2:hover {
+.container-1 .card-2:hover,
+.container-2 .card-2:hover {
   -webkit-box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
           box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
 }
 
-.container-1 .card-3:hover {
+.container-1 .card-3:hover,
+.container-2 .card-3:hover {
   -webkit-box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
           box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
 }
 
-.container-1 .card-4:hover {
-  -webkit-box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
-          box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
+.container-1 .card-4:hover,
+.container-2 .card-4:hover {
+  -webkit-box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
+          box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
 }
 
-.container-1 .card-5:hover {
-  -webkit-box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
-          box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
+.container-1 .card-5:hover,
+.container-2 .card-5:hover {
+  -webkit-box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
+          box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
 }
 /*# sourceMappingURL=main.css.map */
