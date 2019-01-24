@@ -37,7 +37,7 @@
 .github-fork-ribbon a,
 .github-fork-ribbon a:hover {
   /* Set the text properties */
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
   text-align: center;

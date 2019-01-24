@@ -5,6 +5,72 @@ body {
   height: 100%;
 }
 
+.mode-switcher {
+  position: relative;
+  margin-top: 0.5%;
+  margin-right: 0.5%;
+  float: right;
+}
+
+body.dark-mode {
+  background-color: #111;
+  color: #fff;
+}
+
+body.dark-mode a {
+  color: #111;
+}
+
+body.dark-mode button {
+  background-color: #fff;
+  color: #111;
+}
+
+body.dark-mode hr {
+  border: 0;
+  height: 1.8px;
+  -webkit-box-shadow: 3px 3px 15px white;
+          box-shadow: 3px 3px 15px white;
+}
+
+body.dark-mode .card {
+  background-color: #585b5f;
+}
+
+body.dark-mode .text {
+  color: #fff;
+}
+
+body.dark-mode .navbar {
+  background-color: #111;
+  -webkit-box-shadow: 5px 5px 25px 0 rgba(255, 255, 255, 0.2);
+          box-shadow: 5px 5px 25px 0 rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .right .github-fork-ribbon {
+  background-color: #fff;
+}
+
+body.dark-mode .github-fork-ribbon a,
+body.dark-mode .github-fork-ribbon a:hover {
+  /* Set the text properties */
+  color: #502f6f !important;
+}
+
+body.light-mode {
+  background-color: #fff;
+  color: #111;
+}
+
+body.light-mode a {
+  color: #111;
+}
+
+body.light-mode button {
+  background-color: #111;
+  color: #fff;
+}
+
 .navbar {
   width: 100%;
   margin: 0 auto;
@@ -44,7 +110,7 @@ body {
 }
 
 .ref-heading {
-  margin-top: 2.5em;
+  margin-top: 2.4em;
   margin-left: 4.15%;
   text-decoration: none;
   text-transform: uppercase;

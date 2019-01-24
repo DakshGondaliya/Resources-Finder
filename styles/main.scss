@@ -5,6 +5,70 @@ body {
   height: 100%;
 }
 
+.mode-switcher {
+  position: relative;
+  margin-top: 0.5%;
+  margin-right: 0.5%;
+  float: right;
+}
+
+body.dark-mode {
+  background-color: #111;
+  color: #fff;
+
+  a {
+    color: #111;
+  }
+
+  button {
+    background-color: #fff;
+    color: #111;
+  }
+
+  hr {
+    border: 0;
+    height: 1.8px;
+    box-shadow: 3px 3px 15px rgba(255, 255, 255, 1);
+  }
+
+  .card {
+    background-color: #585b5f;
+  }
+
+  .text {
+    color: #fff;
+  }
+
+  .navbar {
+    background-color: #111;
+    box-shadow: 5px 5px 25px 0 rgba(255, 255, 255, 0.2);
+  }
+
+  .right .github-fork-ribbon {
+    background-color: #fff;
+  }
+
+  .github-fork-ribbon a,
+  .github-fork-ribbon a:hover {
+    /* Set the text properties */
+    color: #502f6f !important;
+  }
+}
+
+body.light-mode {
+  background-color: #fff;
+  color: #111;
+
+  a {
+    color: #111;
+  }
+
+  button {
+    background-color: #111;
+    color: #fff;
+  }
+}
+
 .navbar {
   width: 100%;
   margin: 0 auto;
@@ -43,7 +107,7 @@ body {
 
 .ref-heading {
   //  text-align: center;
-  margin-top: 2.5em;
+  margin-top: 2.4em;
   margin-left: 4.15%;
 
   text-decoration: none;
