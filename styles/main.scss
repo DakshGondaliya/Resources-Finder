@@ -63,8 +63,8 @@ hr {
   position: relative;
   margin: 2.5% 4.15%;
   transition: 0.4s;
-  width: 300px;
-  height: 210px;
+  width: 300px !important;
+  height: 210px !important;
   border-radius: 20px;
   padding: 2px 16px;
 }
@@ -110,7 +110,8 @@ hr {
 .container-1,
 .container-2,
 .container-3,
-.container-4 {
+.container-4,
+.container-5 {
   display: flex;
 
   .card-1,
