@@ -12,6 +12,7 @@ body {
   box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
   padding: 4px;
   font-family: "Lato", sans-serif;
+  cursor: pointer;
   // margin-right: 0.5%;
   float: right;
 }
@@ -180,7 +181,8 @@ hr {
 .container-3,
 .container-4,
 .container-5,
-.container-6 {
+.container-6,
+.container-7 {
   display: flex;
 
   .card-1,
