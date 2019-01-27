@@ -62,6 +62,10 @@ body.dark-mode .github-fork-ribbon a:hover {
   color: #502f6f !important;
 }
 
+body.dark-mode .navbar {
+  background-color: #000;
+}
+
 body.light-mode {
   background-color: #fff;
   color: #111;
