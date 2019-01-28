@@ -190,7 +190,9 @@ hr {
 .container-4,
 .container-5,
 .container-6,
-.container-7 {
+.container-7,
+.container-8,
+.container-9 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,7 +218,13 @@ hr {
 .container-6 .card-11,
 .container-7 .card-1,
 .container-7 .card-6,
-.container-7 .card-11 {
+.container-7 .card-11,
+.container-8 .card-1,
+.container-8 .card-6,
+.container-8 .card-11,
+.container-9 .card-1,
+.container-9 .card-6,
+.container-9 .card-11 {
   -webkit-box-shadow: 0 10px 25px 0 rgba(201, 25, 46, 0.2);
           box-shadow: 0 10px 25px 0 rgba(201, 25, 46, 0.2);
   background-color: #fff;
@@ -236,7 +244,11 @@ hr {
 .container-6 .card-2,
 .container-6 .card-7,
 .container-7 .card-2,
-.container-7 .card-7 {
+.container-7 .card-7,
+.container-8 .card-2,
+.container-8 .card-7,
+.container-9 .card-2,
+.container-9 .card-7 {
   -webkit-box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.2);
           box-shadow: 0 10px 25px 0 rgba(28, 54, 111, 0.2);
   background-color: #fff;
@@ -256,7 +268,11 @@ hr {
 .container-6 .card-3,
 .container-6 .card-8,
 .container-7 .card-3,
-.container-7 .card-8 {
+.container-7 .card-8,
+.container-8 .card-3,
+.container-8 .card-8,
+.container-9 .card-3,
+.container-9 .card-8 {
   -webkit-box-shadow: 0 10px 25px 0 rgba(27, 169, 76, 0.2);
           box-shadow: 0 10px 25px 0 rgba(27, 169, 76, 0.2);
   background-color: #fff;
@@ -276,7 +292,11 @@ hr {
 .container-6 .card-4,
 .container-6 .card-9,
 .container-7 .card-4,
-.container-7 .card-9 {
+.container-7 .card-9,
+.container-8 .card-4,
+.container-8 .card-9,
+.container-9 .card-4,
+.container-9 .card-9 {
   -webkit-box-shadow: 0 10px 25px 0 rgba(196, 61, 125, 0.2);
           box-shadow: 0 10px 25px 0 rgba(196, 61, 125, 0.2);
   background-color: #fff;
@@ -296,7 +316,11 @@ hr {
 .container-6 .card-5,
 .container-6 .card-10,
 .container-7 .card-5,
-.container-7 .card-10 {
+.container-7 .card-10,
+.container-8 .card-5,
+.container-8 .card-10,
+.container-9 .card-5,
+.container-9 .card-10 {
   -webkit-box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.2);
           box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.2);
   background-color: #fff;
@@ -323,7 +347,13 @@ hr {
 .container-6 .card-11:hover,
 .container-7 .card-1:hover,
 .container-7 .card-6:hover,
-.container-7 .card-11:hover {
+.container-7 .card-11:hover,
+.container-8 .card-1:hover,
+.container-8 .card-6:hover,
+.container-8 .card-11:hover,
+.container-9 .card-1:hover,
+.container-9 .card-6:hover,
+.container-9 .card-11:hover {
   -webkit-box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
           box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
 }
@@ -341,7 +371,11 @@ hr {
 .container-6 .card-2:hover,
 .container-6 .card-7:hover,
 .container-7 .card-2:hover,
-.container-7 .card-7:hover {
+.container-7 .card-7:hover,
+.container-8 .card-2:hover,
+.container-8 .card-7:hover,
+.container-9 .card-2:hover,
+.container-9 .card-7:hover {
   -webkit-box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
           box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
 }
@@ -359,7 +393,11 @@ hr {
 .container-6 .card-3:hover,
 .container-6 .card-8:hover,
 .container-7 .card-3:hover,
-.container-7 .card-8:hover {
+.container-7 .card-8:hover,
+.container-8 .card-3:hover,
+.container-8 .card-8:hover,
+.container-9 .card-3:hover,
+.container-9 .card-8:hover {
   -webkit-box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
           box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
 }
@@ -377,7 +415,11 @@ hr {
 .container-6 .card-4:hover,
 .container-6 .card-9:hover,
 .container-7 .card-4:hover,
-.container-7 .card-9:hover {
+.container-7 .card-9:hover,
+.container-8 .card-4:hover,
+.container-8 .card-9:hover,
+.container-9 .card-4:hover,
+.container-9 .card-9:hover {
   -webkit-box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
           box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
 }
@@ -395,7 +437,11 @@ hr {
 .container-6 .card-5:hover,
 .container-6 .card-10:hover,
 .container-7 .card-5:hover,
-.container-7 .card-10:hover {
+.container-7 .card-10:hover,
+.container-8 .card-5:hover,
+.container-8 .card-10:hover,
+.container-9 .card-5:hover,
+.container-9 .card-10:hover {
   -webkit-box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
           box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
 }
