@@ -175,10 +175,13 @@ hr {
   position: relative;
   margin: 2.5% 4.5%;
   transition: 0.4s;
-  width: 325px !important;
+  // width: 325px !important;
   height: 220px !important;
   border-radius: 20px;
   padding: 2px 16px;
+  width: 24.3333333333333% !important;
+  float: left;
+  margin: 2.5% 4.5%;
 }
 
 .card a {
@@ -319,7 +322,7 @@ hr {
   width: 50px;
   height: 50px;
   z-index: 10;
-  background-color: #e74c3c;
+  background-color: #ff3e4d;
   box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.25);
   text-indent: -9999px;
   display: none;
@@ -341,7 +344,7 @@ hr {
 }
 
 #scroll:hover {
-  background-color: #e74c3c;
+  background-color: #ff3e4d; //#e74c3c;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
   opacity: 1;
   filter: "alpha(opacity=100)";

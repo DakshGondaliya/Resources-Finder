@@ -17,8 +17,9 @@
 <body id="body" class="light-mode">
     <div class="navbar">
         <img src="images/logo_6.PNG" id="logo" alt="logo" width="350px" />
-        <button type="button" class="mode-switcher" name="dark_light" onclick="toggleDarkLight()">Dark/Light
-            🌛</button>
+        <button type="button" class="mode-switcher" name="dark_light" onclick="toggleDarkLight()">
+             Dark/Light🌛 
+        </button>
         <div class="github-fork-ribbon-wrapper right">
             <div class="github-fork-ribbon">
                 <a href="https://github.com/DakshGondaliya/Resources">Fork me on GitHub</a>
@@ -29,8 +30,8 @@
         </div>
     </div>
     <div class="main-content">
+        <a href="#" id="scroll" style="display: none;"><span></span></a>
         <div class="main-container">
-            <a href="#" id="scroll" style="display: none;"><span></span></a>
             <div class="big-container">
                 <p class="ref-heading" id="spcmar">Development Tools</p>
                 <hr />
@@ -357,7 +358,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="big-container">
                 <p class="ref-heading">javascript resources</p>
                 <hr />
                 <div class="row row-1">
@@ -499,7 +500,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="big-container">
                 <p class="ref-heading">fonts and typography tools</p>
                 <hr />
                 <div class="row row-1">
@@ -593,7 +594,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="big-container">
                 <p class="ref-heading">great colors and tools</p>
                 <hr />
                 <div class="row row-1">
@@ -732,8 +733,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
+            <div class="big-container">
             <p class="ref-heading">images and videos</p>
             <hr />
             <div class="row row-1">
@@ -899,8 +899,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
+            </div>
+            <div class="big-container">
             <p class="ref-heading">best icons and tools</p>
             <hr />
             <div class="row row-1">
@@ -1069,8 +1069,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
+            </div>
+            <div class="big-container">
             <p class="ref-heading">find design inspiration</p>
             <hr />
             <div class="row row-1">
@@ -1162,8 +1162,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
+            </div>
+            <div class="big-container">
             <p class="ref-heading">popular blogs and community</p>
             <hr />
             <div class="row row-1">
@@ -1288,226 +1288,224 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container">
-        <p class="ref-heading">
-            planning, testing, optimization and deployment
-        </p>
-        <hr />
-        <div class="row row-1">
-            <div class="container-11">
-                <div class="card card-1">
-                    <a href="https://www.newdesigngroup.ca/website-design/web-design-process-infographic/">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/flatui.png" alt="flatui">
+            </div>
+            <div class="big-container">
+                <p class="ref-heading">
+                    planning, testing, optimization and deployment
+                </p>
+                <hr />
+                <div class="row row-1">
+                    <div class="container-11">
+                        <div class="card card-1">
+                            <a href="https://www.newdesigngroup.ca/website-design/web-design-process-infographic/">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/flatui.png" alt="flatui">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">Periodic Table of Web Design Process</p>
+                                    <p class="description">
+                                        Great overview of the web design process: from project brief to launching the final
+                                        version.
+                                    </p>
+                                </div>
+                            </a>
                         </div>
-                        <div class="text">
-                            <p class="element-name">Periodic Table of Web Design Process</p>
-                            <p class="description">
-                                Great overview of the web design process: from project brief to launching the final
-                                version.
-                            </p>
+                        <div class="card card-2">
+                            <a href="https://validator.w3.org/">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/materialpalette.PNG" alt="materialpalette">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">HTML Validator by W3C</p>
+                                    <p class="description">
+                                        Check if your HTML markup is valid and contains no errors. Official W3C tool.
+                                    </p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
+                        <div class="card card-3">
+                            <a href="https://jigsaw.w3.org/css-validator/">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/colorhunt.PNG" alt="colorhunt">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">CSS Validator by W3C</p>
+                                    <p class="description">
+                                        Check if your CSS code is valid and contains no errors. Official W3C tool.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card card-2">
-                    <a href="https://validator.w3.org/">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/materialpalette.PNG" alt="materialpalette">
+                <div class="row">
+                    <div class="container-11">
+                        <div class="card card-4">
+                            <a href="http://optimizilla.com/">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/lolcolor.png" alt="lol colors">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">Optimizilla</p>
+                                    <p class="description">
+                                        Compress up to 20 JPEG and PNG images while keeping a good level of quality.
+                                    </p>
+                                </div>
+                            </a>
                         </div>
-                        <div class="text">
-                            <p class="element-name">HTML Validator by W3C</p>
-                            <p class="description">
-                                Check if your HTML markup is valid and contains no errors. Official W3C tool.
-                            </p>
+                        <div class="card card-5">
+                            <a href="http://realfavicongenerator.net/">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/gradient.PNG" alt="gradient">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">Real favicon Generator</p>
+                                    <p class="description">
+                                        Just upload an image and this tool creates favicons for your website for all platforms.
+                                    </p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
+                        <div class="card card-6">
+                            <a href="https://stayintech.com/info/UX">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/paletton.png" alt="paletton">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">Usability checklist</p>
+                                    <p class="description">
+                                        Catch common usability problems of your website before you deploy it. Very useful.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card card-3">
-                    <a href="https://jigsaw.w3.org/css-validator/">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/colorhunt.PNG" alt="colorhunt">
+                <div class="row">
+                    <div class="container-11">
+                        <div class="card card-7">
+                            <a href="https://testmysite.thinkwithgoogle.com/">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/0to255.jpg" alt="0to255">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">Google Mobile-Friendly Test</p>
+                                    <p class="description">
+                                        Test if your webpage has a mobile-friendly design, according to Google's ranking
+                                        factors.
+                                    </p>
+                                </div>
+                            </a>
                         </div>
-                        <div class="text">
-                            <p class="element-name">CSS Validator by W3C</p>
-                            <p class="description">
-                                Check if your CSS code is valid and contains no errors. Official W3C tool.
-                            </p>
+                        <div class="card card-8">
+                            <a href="https://developers.google.com/speed/pagespeed/insights/">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/coleure.png" alt="coleure">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">Google PageSpeed Insights</p>
+                                    <p class="description">
+                                        Quick tool to test your webpage for performance on all devices.
+                                    </p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
+                        <div class="card card-9">
+                            <a href="http://nibbler.silktide.com/en_US">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/coleure.png" alt="coleure">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">Nibbler</p>
+                                    <p class="description">
+                                        Website testing tool for 10 key areas including accessibility, SEO, social media and
+                                        technology.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container-11">
+                        <div class="card card-10">
+                            <a href="https://www.woorank.com/">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/0to255.jpg" alt="0to255">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">Woorank</p>
+                                    <p class="description">
+                                        Get a review of your website to address issues and identify opportunities to get ahead
+                                        of competition.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card-11">
+                            <a href="http://www.google.com/analytics">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/coleure.png" alt="coleure">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">Google Analytics</p>
+                                    <p class="description">
+                                        Get free insights about traffic, visitors and conversions. A must for every website.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card-12">
+                            <a href="https://www.namecheap.com/">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/coleure.png" alt="coleure">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">Namecheap</p>
+                                    <p class="description">
+                                        Purchase premium and cost-effective domain names, web hosting, and much more.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container-11">
+                        <div class="card card-13">
+                            <a href="https://kinsta.com/learn/page-speed/">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/0to255.jpg" alt="0to255">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">Website Speed Optimization Guide</p>
+                                    <p class="description">
+                                        An excellent guide to optimize your webpage speed. This is something many devs
+                                        overlook!
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card-14">
+                            <a href="http://sizzy.co/">
+                                <div class="element-logo">
+                                    <img class="inner-logo" src="images/colors/coleure.png" alt="coleure">
+                                </div>
+                                <div class="text">
+                                    <p class="element-name">Sizzy</p>
+                                    <p class="description">
+                                        A tool for developing responsive websites crazy-fast. See your page on multiple devices
+                                        at once.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="container-11">
-                <div class="card card-4">
-                    <a href="http://optimizilla.com/">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/lolcolor.png" alt="lol colors">
-                        </div>
-                        <div class="text">
-                            <p class="element-name">Optimizilla</p>
-                            <p class="description">
-                                Compress up to 20 JPEG and PNG images while keeping a good level of quality.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="card card-5">
-                    <a href="http://realfavicongenerator.net/">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/gradient.PNG" alt="gradient">
-                        </div>
-                        <div class="text">
-                            <p class="element-name">Real favicon Generator</p>
-                            <p class="description">
-                                Just upload an image and this tool creates favicons for your website for all platforms.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="card card-6">
-                    <a href="https://stayintech.com/info/UX">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/paletton.png" alt="paletton">
-                        </div>
-                        <div class="text">
-                            <p class="element-name">Usability checklist</p>
-                            <p class="description">
-                                Catch common usability problems of your website before you deploy it. Very useful.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="container-11">
-                <div class="card card-7">
-                    <a href="https://testmysite.thinkwithgoogle.com/">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/0to255.jpg" alt="0to255">
-                        </div>
-                        <div class="text">
-                            <p class="element-name">Google Mobile-Friendly Test</p>
-                            <p class="description">
-                                Test if your webpage has a mobile-friendly design, according to Google's ranking
-                                factors.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="card card-8">
-                    <a href="https://developers.google.com/speed/pagespeed/insights/">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/coleure.png" alt="coleure">
-                        </div>
-                        <div class="text">
-                            <p class="element-name">Google PageSpeed Insights</p>
-                            <p class="description">
-                                Quick tool to test your webpage for performance on all devices.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="card card-9">
-                    <a href="http://nibbler.silktide.com/en_US">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/coleure.png" alt="coleure">
-                        </div>
-                        <div class="text">
-                            <p class="element-name">Nibbler</p>
-                            <p class="description">
-                                Website testing tool for 10 key areas including accessibility, SEO, social media and
-                                technology.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="container-11">
-                <div class="card card-10">
-                    <a href="https://www.woorank.com/">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/0to255.jpg" alt="0to255">
-                        </div>
-                        <div class="text">
-                            <p class="element-name">Woorank</p>
-                            <p class="description">
-                                Get a review of your website to address issues and identify opportunities to get ahead
-                                of competition.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="card card-11">
-                    <a href="http://www.google.com/analytics">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/coleure.png" alt="coleure">
-                        </div>
-                        <div class="text">
-                            <p class="element-name">Google Analytics</p>
-                            <p class="description">
-                                Get free insights about traffic, visitors and conversions. A must for every website.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="card card-12">
-                    <a href="https://www.namecheap.com/">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/coleure.png" alt="coleure">
-                        </div>
-                        <div class="text">
-                            <p class="element-name">Namecheap</p>
-                            <p class="description">
-                                Purchase premium and cost-effective domain names, web hosting, and much more.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="container-11">
-                <div class="card card-13">
-                    <a href="https://kinsta.com/learn/page-speed/">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/0to255.jpg" alt="0to255">
-                        </div>
-                        <div class="text">
-                            <p class="element-name">Website Speed Optimization Guide</p>
-                            <p class="description">
-                                An excellent guide to optimize your webpage speed. This is something many devs
-                                overlook!
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="card card-14">
-                    <a href="http://sizzy.co/">
-                        <div class="element-logo">
-                            <img class="inner-logo" src="images/colors/coleure.png" alt="coleure">
-                        </div>
-                        <div class="text">
-                            <p class="element-name">Sizzy</p>
-                            <p class="description">
-                                A tool for developing responsive websites crazy-fast. See your page on multiple devices
-                                at once.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
     </div>
-    </div>
-    </div>
-    </div>
-    </div>
+</div>
     <!-- <script type="text/javascript">
     $(document).ready(function () {
       $('.container-1').slick({
@@ -1521,7 +1519,6 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-</script>
 
 <script>
     jQuery(document).ready(function () {
