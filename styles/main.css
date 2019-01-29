@@ -154,12 +154,10 @@ hr {
   margin: 2.5% 4.5%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  width: 325px !important;
   height: 220px !important;
   border-radius: 20px;
   padding: 2px 16px;
-  width: 24.3333333333333% !important;
-  float: left;
-  margin: 2.5% 4.5%;
 }
 
 .card a {
