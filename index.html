@@ -30,6 +30,7 @@
     </div>
     <div class="main-content">
         <div class="main-container">
+            <a href="#" id="scroll" style="display: none;"><span></span></a>
             <div class="big-container">
                 <p class="ref-heading" id="spcmar">Development Tools</p>
                 <hr />
@@ -1519,9 +1520,31 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+</script>
+
+<script>
+    jQuery(document).ready(function () {
+        var offset = 400;
+        var duration = 500;
+        jQuery(window).scroll(function () {
+            if (jQuery(this).scrollTop() > offset) {
+                jQuery('#scroll').fadeIn(duration);
+            } else {
+                jQuery('#scroll').fadeOut(duration);
+            }
+        });
+
+        jQuery('#scroll').click(function (event) {
+            event.preventDefault();
+            jQuery('html, body').animate({ scrollTop: 0 }, duration);
+            return false;
+        })
+    });
+</script>
     <!-- Place this tag in your head or just before your close body tag. -->
     
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
 </body>
 
 </html>

@@ -3,6 +3,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
+  z-index: 1;
 }
 
 .mode-switcher {
@@ -35,30 +36,37 @@ body.dark-mode {
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
+
   a {
     color: #111;
   }
+
   button {
     background-color: #fff;
     color: #111;
   }
+
   hr {
     border: 0; // height: 1.8px;
     // box-shadow: 3px 3px 15px rgba(255, 255, 255, 1);
   }
+
   .navbar {
     // background-color: #352741;
     background-color: #0e0616;
     box-shadow: 2px 2px 10px 0 rgba(255, 255, 255, 0.2);
   }
+
   .right .github-fork-ribbon {
     background-color: #fff;
   }
+
   .github-fork-ribbon a,
   .github-fork-ribbon a:hover {
     /* Set the text properties */
     color: #502f6f !important;
   }
+
   .card {
     background-color: #120320; //#19052c // background-image: linear-gradient(to right, #454d81, #38407d, #2b3279, #1e2574, #0f166e);
     border-radius: 20px; // border-image-slice: 1;
@@ -69,16 +77,20 @@ body.dark-mode {
     // border-bottom: 4px solid #333399;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2); // opacity: 0.85;
   }
+
   .card:hover {
     box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.25);
   }
+
   .text {
     color: rgba(255, 255, 255, 0.9);
   }
+
   .progress-container {
     // background: #b09baf;
     background: #371e3e;
   }
+
   .progress-bar {
     background: #df1c63; // background: #c43d7d;
     // background: #ff00cc;
@@ -93,9 +105,11 @@ body.dark-mode {
 body.light-mode {
   background-color: #fff;
   color: #111;
+
   a {
     color: #111;
   }
+
   button {
     background-color: #111;
     color: #fff;
@@ -175,12 +189,14 @@ hr {
   margin-top: 8%;
   color: #000;
   vertical-align: left;
+
   .element-name {
     font-size: 1rem;
     font-family: "Lato", sans-serif;
     font-weight: 501;
     font-style: oblique;
   }
+
   .description {
     font-size: 0.75rem;
     font-family: "Montserrat", sans-serif;
@@ -215,6 +231,7 @@ hr {
 .container-10,
 .container-11 {
   display: flex;
+
   .card-1,
   .card-6,
   .card-11 {
@@ -222,6 +239,7 @@ hr {
     background-color: #fff;
     border-top: 3px solid rgba(201, 25, 46, 0.3); //  background-image: linear-gradient(to top, #ac1828, #bb1729, #cb1629, #da1429, #ea1329);
   }
+
   .card-2,
   .card-7,
   .card-12 {
@@ -229,6 +247,7 @@ hr {
     background-color: #fff;
     border-top: 3px solid rgba(28, 54, 111, 0.3); //  background-image: linear-gradient(to top, #1c366f, #1d4681, #1d5792, #1c68a3, #1d79b4);
   }
+
   .card-3,
   .card-8,
   .card-13 {
@@ -236,6 +255,7 @@ hr {
     background-color: #fff;
     border-top: 3px solid rgba(27, 169, 76, 0.3);
   }
+
   .card-4,
   .card-9,
   .card-14 {
@@ -243,32 +263,38 @@ hr {
     background-color: #fff;
     border-top: 3px solid rgba(196, 61, 125, 0.3);
   }
+
   .card-5,
   .card-10 {
     box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.2);
     background-color: #fff;
     border-top: 3px solid rgba(58, 201, 185, 0.3);
   }
+
   .card-1:hover,
   .card-6:hover,
   .card-11:hover {
     box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
   }
+
   .card-2:hover,
   .card-7:hover,
   .card-12:hover {
     box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
   }
+
   .card-3:hover,
   .card-8:hover,
   .card-13:hover {
     box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
   }
+
   .card-4:hover,
   .card-9:hover,
   .card-14:hover {
     box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
   }
+
   .card-5:hover,
   .card-10:hover {
     box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
@@ -283,4 +309,41 @@ hr {
   margin-top: -2.5em;
   width: 45px;
   z-index: 0;
+}
+
+#scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  background-color: #e74c3c;
+  box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.25);
+  text-indent: -9999px;
+  display: none;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+}
+
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
+}
+
+#scroll:hover {
+  background-color: #e74c3c;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
 }
