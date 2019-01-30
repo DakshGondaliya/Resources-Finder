@@ -81,7 +81,7 @@ body.dark-mode .progress-bar {
 }
 
 body.light-mode {
-  background-color: #fff;
+  background-color: #f1f1f145;
   color: #111;
 }
 
@@ -144,9 +144,10 @@ body.light-mode button {
 hr {
   width: 100%;
   border: 0;
+  border-color: #fff;
   height: 1.8px;
-  -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
-          box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.35);
+          box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.35);
 }
 
 .card {

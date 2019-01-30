@@ -103,7 +103,7 @@ body.dark-mode {
 }
 
 body.light-mode {
-  background-color: #fff;
+  background-color: #f1f1f145;
   color: #111;
 
   a {
@@ -167,8 +167,9 @@ body.light-mode {
 hr {
   width: 100%;
   border: 0;
+  border-color: #fff;
   height: 1.8px;
-  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.35);
 }
 
 .card {
@@ -347,3 +348,32 @@ hr {
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)";
 }
+
+// .footer {
+//   width: 100%;
+//   margin-top: 3%;
+//   background-color: #fff;
+//   box-shadow: 0 1px 5px rgba(27, 31, 35, 0.15);
+// }
+
+// .name-window {
+//   position: relative;
+//   margin: 5% 5%;
+
+//   .soft-logo {
+//     margin-top: 2%;
+//     width: 350px;
+//   }
+
+//   .name-text {
+//     float: right;
+//     width: 200px;
+//   }
+// }
+
+// .photo {
+//   position: relative;
+//   margin: 10% 0;
+//   width: 60px;
+//   border-radius: 50%;
+// }
