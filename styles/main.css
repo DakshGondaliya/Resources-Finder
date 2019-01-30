@@ -80,6 +80,14 @@ body.dark-mode .progress-bar {
   background: #df1c63;
 }
 
+body.dark-mode .fa-heart-o {
+  color: #ff3030;
+}
+
+body.dark-mode .footer__text > * {
+  color: #000;
+}
+
 body.light-mode {
   background-color: #f1f1f145;
   color: #111;
@@ -617,5 +625,66 @@ hr {
   opacity: 1;
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)";
+}
+
+.footer {
+  width: 100%;
+  margin-top: 3%;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.name-window {
+  display: inline-block;
+  width: 90%;
+  margin: 2% 5% 0 5%;
+  height: 40px;
+}
+
+.name-window .soft-logo {
+  margin: 2% 0;
+  width: 30%;
+}
+
+.me {
+  float: right;
+  width: 50%;
+  margin: 2% 0;
+}
+
+.me img {
+  float: right;
+  width: 38%;
+}
+
+.fa-heart-o {
+  color: #ff3030;
+  font-size: 36px;
+  margin: 0 2px;
+}
+
+.footer__text > * {
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+.footer__text {
+  margin-top: 2%;
+  font-family: "Lato", sans-serif;
+}
+
+.footer_para {
+  line-height: 100%;
+}
+
+#green {
+  color: #06cf4a;
+}
+
+#violate {
+  color: #241355;
 }
 /*# sourceMappingURL=main.css.map */
