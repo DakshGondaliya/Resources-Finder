@@ -698,19 +698,19 @@ hr {
 
 .fa-heart-o {
   color: #ff3030;
-  font-size: 36px;
+  font-size: 30px;
   margin: 0 2px;
 }
 
 .footer__text > * {
   display: block;
   text-align: center;
-  font-size: 1rem;
-  padding: 5px 0;
+  font-size: 0.85rem;
+  padding: 3px 0;
 }
 
 .footer__text {
-  margin-top: 2%;
+  margin-top: -1em;
   font-family: "Lato", sans-serif;
 }
 
