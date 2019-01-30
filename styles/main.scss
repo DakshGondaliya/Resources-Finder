@@ -180,7 +180,7 @@ hr {
   margin: 2.5% 4.5%;
   transition: 0.4s;
   width: 325px !important;
-  height: 220px !important;
+  min-height: 220px !important;
   border-radius: 20px;
   padding: 2px 16px;
 }
