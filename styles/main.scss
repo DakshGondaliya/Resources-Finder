@@ -84,7 +84,6 @@ body.dark-mode {
     background: #df1c63; // background: #c43d7d;
     // background: #ff00cc;
   }
-
   .fa-heart-o {
     color: #ff3030;
   }
@@ -377,6 +376,44 @@ hr {
 .me img {
   float: right;
   width: 38%;
+}
+
+.widget {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+  padding: 15px 30px;
+  margin: 10px 0 60px;
+  padding: 30px;
+  text-align: center;
+}
+
+.widget .widget-title,
+.widget .widgettitle {
+  background-color: #fff;
+  color: #10242b;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin: -48px auto 0px;
+  line-height: 1;
+  padding: 0 15px 41px;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 9;
+  text-transform: capitalize;
+}
+
+.mysocialwid {
+  display: block;
+  font-size: 30px;
+}
+
+.mysocial {
+  display: inline;
+  padding-right: 2%;
+  color: #000;
 }
 
 .fa-heart-o {
