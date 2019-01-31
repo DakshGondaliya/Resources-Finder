@@ -45,7 +45,7 @@
     /* Set the geometry. If you fiddle with these you'll also need
      to tweak the top and right values in .github-fork-ribbon. */
     width: 200px;
-    line-height: 20px;
+    line-height: 18px;
 
     /* Set the layout properties */
     display: inline-block;
