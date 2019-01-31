@@ -102,7 +102,7 @@ body.dark-mode {
     color: #ff3030;
   }
 
-  .footer__text>* {
+  .footer__text > * {
     color: #000;
   }
 }
@@ -452,7 +452,7 @@ hr {
   }
 
   .fa-twitter:hover {
-    color: #0080c2
+    color: #0080c2;
   }
 
   .fa-linkedin:hover {
@@ -482,7 +482,7 @@ hr {
   margin: 0 2px;
 }
 
-.footer__text>* {
+.footer__text > * {
   display: block;
   text-align: center;
   font-size: 0.85rem;
