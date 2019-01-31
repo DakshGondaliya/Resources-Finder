@@ -8,14 +8,16 @@ body {
 
 .mode-switcher {
   position: relative;
-  margin-top: 0.6%;
-  margin-right: 9.4%;
+  margin-top: 10px;
+  margin-right: 136px;
   -webkit-box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
           box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
   padding: 4px;
   font-family: "Lato", sans-serif;
   cursor: pointer;
   float: right;
+  min-width: 12%;
+  font-size: 0.7em;
 }
 
 body.dark-mode {
@@ -99,8 +101,8 @@ body.light-mode button {
   margin: 0 auto;
   height: 110px;
   background-color: #fff;
-  -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
-          box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+          box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
   position: fixed;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -112,6 +114,7 @@ body.light-mode button {
 #logo {
   float: left;
   margin: 20px 2px;
+  width: 25%;
 }
 
 .ref-heading {
