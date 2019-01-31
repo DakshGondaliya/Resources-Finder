@@ -673,6 +673,34 @@ hr {
   color: #000;
 }
 
+.mysocial .fa-facebook:hover {
+  color: #005b98;
+}
+
+.mysocial .fa-twitter:hover {
+  color: #0080c2;
+}
+
+.mysocial .fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.mysocial .fa-instagram:hover {
+  color: #517fa4;
+}
+
+.mysocial .fa-github:hover {
+  color: #000;
+}
+
+.mysocial .fa-google-plus:hover {
+  color: #dc4e41;
+}
+
+.mysocial .fa-quora:hover {
+  color: #b0271e;
+}
+
 .fa-heart-o {
   color: #ff3030;
   font-size: 30px;

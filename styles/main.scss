@@ -444,6 +444,34 @@ hr {
   display: inline;
   padding-right: 2%;
   color: #000;
+
+  .fa-facebook:hover {
+    color: #005b98;
+  }
+
+  .fa-twitter:hover {
+    color: #0080c2
+  }
+
+  .fa-linkedin:hover {
+    color: #0077b5;
+  }
+
+  .fa-instagram:hover {
+    color: #517fa4;
+  }
+
+  .fa-github:hover {
+    color: #000;
+  }
+
+  .fa-google-plus:hover {
+    color: #dc4e41;
+  }
+
+  .fa-quora:hover {
+    color: #b0271e;
+  }
 }
 
 .fa-heart-o {
