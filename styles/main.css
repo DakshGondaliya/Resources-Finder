@@ -60,7 +60,7 @@ body.dark-mode .github-fork-ribbon a:hover {
 body.dark-mode .card {
   background-color: #120320;
   border-radius: 20px;
-  border: 2px solid #f48fb1;
+  border: 2px solid #634e55;
   -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
 }
@@ -71,7 +71,7 @@ body.dark-mode .card:hover {
 }
 
 body.dark-mode .text {
-  color: rgba(255, 255, 255, 0.9);
+  color: white;
 }
 
 body.dark-mode .fa-heart-o {
