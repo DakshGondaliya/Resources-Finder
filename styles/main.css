@@ -605,8 +605,8 @@ hr {
   width: 100%;
   margin-top: 3%;
   background-color: #fff;
-  -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
-          box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
 }
 
 .name-window {
