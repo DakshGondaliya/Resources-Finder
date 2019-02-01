@@ -795,4 +795,41 @@ hr {
 #violate {
   color: #241355;
 }
+
+.cut-edge {
+  z-index: -5;
+}
+
+.cut-edge--1 {
+  position: absolute;
+  width: 895px;
+  height: 900px;
+  left: -500px;
+  top: -475px;
+  border-radius: 50%;
+  background: linear-gradient(160deg, #f1f3f5 0%, #a7b4c2 100%);
+  opacity: 0.16;
+}
+
+.cut-edge--2 {
+  position: fixed;
+  width: 895px;
+  height: 900px;
+  left: -500px;
+  top: -475px;
+  border-radius: 50%;
+  background: linear-gradient(160deg, #f1f3f5 0%, #a7b4c2 100%);
+  opacity: 0.16;
+}
+
+.cut-edge--3 {
+  position: fixed;
+  width: 850px;
+  height: 900px;
+  right: -500px;
+  bottom: -600px;
+  border-radius: 50%;
+  background: linear-gradient(160deg, #f1f3f5 0%, #a7b4c2 100%);
+  opacity: 0.5;
+}
 /*# sourceMappingURL=main.css.map */

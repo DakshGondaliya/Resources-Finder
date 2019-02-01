@@ -17,6 +17,7 @@
 
 <body id="body" class="light-mode">
     <div class="navbar">
+        <!-- <div class="cut-edge cut-edge--1"></div> -->
         <img src="images/logo_6.svg" id="logo" alt="logo" width="350px" />
         <button type="button" class="mode-switcher" name="dark_light" onclick="toggleDarkLight()">
             Dark/Light🌛
@@ -26,6 +27,7 @@
                 <a href="https://github.com/DakshGondaliya/Resources">Fork me on GitHub</a>
             </div>
         </div>
+        <div class="cut-edge cut-edge--1"></div>
         <!-- <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
         </div> -->
@@ -38,6 +40,8 @@
                 <hr />
                 <div class="row row-1">
                     <div class="container-1">
+                        <div class="cut-edge cut-edge--2"></div>
+                        <div class="cut-edge cut-edge--3"></div>
                         <div class="card card-1">
                             <a href="https://code.visualstudio.com/">
                                 <div class="element-logo">
@@ -1548,12 +1552,13 @@
             <div class="mysocialwid">
                 <div class="mysocial"><a href="https://www.facebook.com/daksh.gondaliya.7" target="_blank"><i class="fa fa-facebook"></i></a></div>
                 <div class="mysocial"><a href="https://twitter.com/gondaliyadaksh" target="_blank"><i class="fa fa-twitter"></i></a></div>
-                <div class="mysocial"><a href="https://www.linkedin.com/in/daksh-gondaliya-64625615b/" target="_blank"><i class="fa fa-linkedin"></i></a></div>
+                <div class="mysocial"><a href="https://www.linkedin.com/in/daksh-gondaliya-64625615b/" target="_blank"><i
+                            class="fa fa-linkedin"></i></a></div>
                 <div class="mysocial"><a href="https://www.instagram.com/dynamic_daksh/" target="_blank"><i class="fa fa-instagram"></i></a></div>
-                <div class="mysocial"><a href=""
-                        target="_blank"><i class="fa fa-github"></i></a></div>
+                <div class="mysocial"><a href="" target="_blank"><i class="fa fa-github"></i></a></div>
                 <div class="mysocial"><a href="https://www.instagram.com/dynamic_daksh/" target="_blank"><i class="fa fa-google-plus"></i></a></div>
-                <div class="mysocial"><a href="https://www.quora.com/profile/Daksh-Gondaliya-1" target="_blank"><i class="fa fa-quora"></i></a></div>
+                <div class="mysocial"><a href="https://www.quora.com/profile/Daksh-Gondaliya-1" target="_blank"><i
+                            class="fa fa-quora"></i></a></div>
             </div>
         </div>
         <div class="footer__text">
@@ -1597,7 +1602,9 @@
 
             jQuery('#scroll').click(function (event) {
                 event.preventDefault();
-                jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                jQuery('html, body').animate({
+                    scrollTop: 0
+                }, duration);
                 return false;
             })
         });

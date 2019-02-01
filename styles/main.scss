@@ -532,3 +532,41 @@ hr {
 #violate {
   color: #241355;
 }
+
+.cut-edge {
+
+  z-index: -5;
+
+  &--1 {
+    position: absolute;
+    width: 895px;
+    height: 900px;
+    left: -500px;
+    top: -475px;
+    border-radius: 50%;
+    background: linear-gradient(160deg, rgb(241, 243, 245) 0%, rgb(167, 180, 194) 100%);
+    opacity: 0.16;
+  }
+
+  &--2 {
+    position: fixed;
+    width: 895px;
+    height: 900px;
+    left: -500px;
+    top: -475px;
+    border-radius: 50%;
+    background: linear-gradient(160deg, rgb(241, 243, 245) 0%, rgb(167, 180, 194) 100%);
+    opacity: 0.16;
+  }
+
+  &--3 {
+    position: fixed;
+    width: 850px;
+    height: 900px;
+    right: -500px;
+    bottom: -600px;
+    border-radius: 50%;
+    background: linear-gradient(160deg, rgb(241, 243, 245) 0%, rgb(167, 180, 194) 100%);
+    opacity: 0.5;
+  }
+}
