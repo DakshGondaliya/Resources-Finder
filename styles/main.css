@@ -19,6 +19,8 @@ body {
   min-width: 12%;
   font-size: 0.7em;
   border-radius: 7px;
+  -webkit-animation: moveInBottom 0.5s ease-out;
+          animation: moveInBottom 0.5s ease-out;
 }
 
 body.dark-mode {
@@ -116,6 +118,8 @@ body.light-mode button {
   float: left;
   margin: 20px 2px;
   width: 25%;
+  -webkit-animation: moveInLeft 0.5s ease-out;
+          animation: moveInLeft 0.5s ease-out;
 }
 
 .ref-heading {
@@ -559,6 +563,66 @@ hr {
           box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
 }
 
+@-webkit-keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-10rem);
+            transform: translateX(-10rem);
+  }
+  80% {
+    -webkit-transform: translateX(1rem);
+            transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-10rem);
+            transform: translateX(-10rem);
+  }
+  80% {
+    -webkit-transform: translateX(1rem);
+            transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@-webkit-keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
 .inner-logo {
   position: relative;
   top: 0;
@@ -691,7 +755,7 @@ hr {
 }
 
 .mysocial .fa-github:hover {
-  color: #000;
+  color: #a0b4c8;
 }
 
 .mysocial .fa-google-plus:hover {

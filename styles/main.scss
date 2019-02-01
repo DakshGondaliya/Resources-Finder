@@ -18,6 +18,7 @@ body {
   min-width: 12%;
   font-size: 0.7em;
   border-radius: 7px;
+  animation: moveInBottom 0.5s ease-out;
 }
 
 body.dark-mode {
@@ -74,8 +75,7 @@ body.dark-mode {
     background-color: #120320; //#19052c // background-image: linear-gradient(to right, #454d81, #38407d, #2b3279, #1e2574, #0f166e);
     border-radius: 20px; // border-image-slice: 1;
     // border-image: linear-gradient(to left, #743ad5, #d53a9d);
-    border: 2px solid #634e55;
-    // #f48fb1; // border-left: 4px solid #5a0b4b 602b61;
+    border: 2px solid #634e55; // #f48fb1; // border-left: 4px solid #5a0b4b 602b61;
     // border-top: 4px solid #6b1b5b;
     // border-right: 4px solid #4f4f8a;
     // border-bottom: 4px solid #333399;
@@ -102,7 +102,7 @@ body.dark-mode {
     color: #ff3030;
   }
 
-  .footer__text > * {
+  .footer__text>* {
     color: #000;
   }
 }
@@ -142,6 +142,7 @@ body.light-mode {
   float: left;
   margin: 20px 2px;
   width: 25%;
+  animation: moveInLeft 0.5s ease-out;
 }
 
 // .progress-container {
@@ -150,14 +151,12 @@ body.light-mode {
 //   background: #f8f5f5;
 //   z-index: 1;
 // }
-
 // .progress-bar {
 //   height: 6px;
 //   background: #ff3e4d;
 //   width: 0%;
 //   margin-top: 104px;
 // }
-
 // ::-webkit-scrollbar {
 //   display: none;
 // }
@@ -306,6 +305,34 @@ hr {
   .card-5:hover,
   .card-10:hover {
     box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
   }
 }
 
@@ -464,7 +491,7 @@ hr {
   }
 
   .fa-github:hover {
-    color: #000;
+    color: #a0b4c8;
   }
 
   .fa-google-plus:hover {
@@ -482,7 +509,7 @@ hr {
   margin: 0 2px;
 }
 
-.footer__text > * {
+.footer__text>* {
   display: block;
   text-align: center;
   font-size: 0.85rem;
