@@ -49,6 +49,11 @@ body.dark-mode .navbar {
           box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
+body.dark-mode .logo_img {
+  background-image: url(images/logo_8.PNG);
+  width: 350px;
+}
+
 body.dark-mode .right .github-fork-ribbon {
   background-color: #fff;
 }
@@ -165,6 +170,14 @@ body.light-mode .cut-edge--3 {
   width: 25%;
   -webkit-animation: moveInLeft 0.5s ease-out;
           animation: moveInLeft 0.5s ease-out;
+}
+
+.logo-light {
+  content: url(../images/logo_7.PNG);
+}
+
+.logo-dark {
+  content: url(../images/logo_9.PNG);
 }
 
 .ref-heading {

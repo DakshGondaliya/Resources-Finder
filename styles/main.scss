@@ -62,6 +62,11 @@ body.dark-mode {
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
   }
 
+  .logo_img {
+    background-image: url(images/logo_8.PNG);
+    width: 350px;
+  }
+
   .right .github-fork-ribbon {
     background-color: #fff;
   }
@@ -190,6 +195,14 @@ body.light-mode {
   margin: 20px 2px;
   width: 25%;
   animation: moveInLeft 0.5s ease-out;
+}
+
+.logo-light {
+  content: url(../images/logo_7.PNG);
+}
+
+.logo-dark {
+  content: url(../images/logo_9.PNG);
 }
 
 // .progress-container {
