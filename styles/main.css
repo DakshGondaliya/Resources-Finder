@@ -24,7 +24,7 @@ body {
 }
 
 body.dark-mode {
-  background-color: #3c3a59;
+  background-color: #343030;
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
@@ -44,30 +44,32 @@ body.dark-mode hr {
 }
 
 body.dark-mode .navbar {
-  background-color: #0e0616;
+  background-color: #0d0c0c;
   -webkit-box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 body.dark-mode .logo_img {
-  background-image: url(images/logo_8.PNG);
+  background-image: url(../images/logo_8.PNG);
   width: 350px;
 }
 
 body.dark-mode .right .github-fork-ribbon {
-  background-color: #fff;
+  background-color: #dbe6f1;
 }
 
 body.dark-mode .github-fork-ribbon a,
 body.dark-mode .github-fork-ribbon a:hover {
   /* Set the text properties */
-  color: #502f6f !important;
+  color: #111 !important;
 }
 
 body.dark-mode .card {
-  background-color: #120320;
+  background-color: #050300;
   border-radius: 20px;
-  border: 2px solid #891339;
+  border: 2px solid #2a2d36;
+  -webkit-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
   -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
 }
@@ -75,10 +77,26 @@ body.dark-mode .card {
 body.dark-mode .card:hover {
   -webkit-box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.25);
           box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 body.dark-mode .text {
-  color: white;
+  color: #b9b9b9;
+}
+
+body.dark-mode .element-name {
+  color: #ddd;
+}
+
+body.dark-mode #scroll {
+  background-color: #878d92;
+}
+
+body.dark-mode #scroll span {
+  border-bottom-color: #111;
 }
 
 body.dark-mode .fa-heart-o {
@@ -177,7 +195,7 @@ body.light-mode .cut-edge--3 {
 }
 
 .logo-dark {
-  content: url(../images/logo_9.PNG);
+  content: url(../images/logo_15.PNG);
 }
 
 .ref-heading {
@@ -191,7 +209,7 @@ body.light-mode .cut-edge--3 {
 
 .card {
   position: relative;
-  margin: 2.5% 4.5%;
+  margin: 2.5% 4.7%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   width: 325px !important;
@@ -710,7 +728,6 @@ body.light-mode .cut-edge--3 {
 }
 
 #scroll:hover {
-  background-color: #ff3e4d;
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
   opacity: 1;
