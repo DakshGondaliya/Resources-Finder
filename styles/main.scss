@@ -58,10 +58,6 @@ body.dark-mode {
     // background-color: #1d1f21;
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
   }
-  .logo_img {
-    background-image: url(../images/logo_8.PNG);
-    width: 350px;
-  }
   .right .github-fork-ribbon {
     background-color: #dbe6f1;
   }
@@ -121,6 +117,7 @@ body.dark-mode {
     background-color: #0d0c0c;
     border-bottom: 1px solid #e6e6e6;
     border-top: 1px solid #e6e6e6;
+    margin-top: 50px;
   }
   #violate {
     color: #7fd9cd;
@@ -485,7 +482,7 @@ body.light-mode {
   border-top: 1px solid #e6e6e6;
   margin-bottom: 30px;
   padding: 15px 30px;
-  margin: 20px 0 60px;
+  margin: 50px 0 60px;
   padding: 30px;
   text-align: center;
 }
