@@ -108,6 +108,7 @@ body.dark-mode {
   }
   .footer {
     background-color: #0d0c0c;
+    color: #b9b9b9;
   }
   .widget .widget-title {
     background-color: #0d0c0c;
@@ -205,7 +206,7 @@ body.light-mode {
 }
 
 .logo-dark {
-  content: url(../images/logo_15.PNG);
+  content: url(../images/logo_18.PNG);
 }
 
 // .progress-container {
@@ -443,40 +444,39 @@ body.light-mode {
   width: 25%;
 }
 
-//   .name-text {
-//     float: right;
-//     width: 200px;
-//     display: block;
-//     width: 60%;
-//   }
-// }
-// .c-1 {
-//   position: relative;
-//   width: 60%;
-//   float: left;
-// }
-// .name {
-//   margin: 4% 2% 4% 2%;
-//   font-family: "Montserrat", sans-serif;
-//   font-size: 25px;
-//   letter-spacing: 0.005em;
-// }
-// .photo {
+.name-text {
+  float: right;
+  width: 200px;
+  display: block;
+  width: 60%;
+}
+.c-1 {
+  position: relative;
+  width: 60%;
+  float: left;
+}
+.name {
+  margin: 4% 2% 4% 2%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.005em;
+}
+.photo {
+  float: right;
+  margin: 2% 2% 2% 0;
+  width: 60px;
+  border-radius: 50%;
+}
+// .me {
 //   float: right;
-//   margin: 2% 2% 2% 0;
-//   width: 70px;
-//   border-radius: 50%;
+//   width: 50%;
+//   margin: 2% 0;
 // }
-.me {
-  float: right;
-  width: 50%;
-  margin: 2% 0;
-}
 
-.me img {
-  float: right;
-  width: 38%;
-}
+// .me img {
+//   float: right;
+//   width: 38%;
+// }
 
 .widget {
   background-color: #fff;

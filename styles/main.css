@@ -100,6 +100,7 @@ body.dark-mode .fa-heart-o {
 
 body.dark-mode .footer {
   background-color: #0d0c0c;
+  color: #b9b9b9;
 }
 
 body.dark-mode .widget .widget-title {
@@ -206,7 +207,7 @@ body.light-mode .cut-edge--3 {
 }
 
 .logo-dark {
-  content: url(../images/logo_15.PNG);
+  content: url(../images/logo_18.PNG);
 }
 
 .ref-heading {
@@ -767,15 +768,31 @@ body.light-mode .cut-edge--3 {
   width: 25%;
 }
 
-.me {
+.name-text {
   float: right;
-  width: 50%;
-  margin: 2% 0;
+  width: 200px;
+  display: block;
+  width: 60%;
 }
 
-.me img {
+.c-1 {
+  position: relative;
+  width: 60%;
+  float: left;
+}
+
+.name {
+  margin: 4% 2% 4% 2%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.005em;
+}
+
+.photo {
   float: right;
-  width: 38%;
+  margin: 2% 2% 2% 0;
+  width: 60px;
+  border-radius: 50%;
 }
 
 .widget {
