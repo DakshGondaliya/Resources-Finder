@@ -10,7 +10,7 @@ body {
   position: relative;
   margin-top: 10px;
   margin-right: 136px;
-  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+  // box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
   padding: 4px;
   font-family: "Lato", sans-serif;
   cursor: pointer; // margin-right: 0.5%;
@@ -42,30 +42,37 @@ body.dark-mode {
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
+
   a {
     color: #b9b9b9;
   }
-  button {
-    background-color: #fff;
-    color: #111;
+
+  label {
+    background-color: #0d0c0c;
+    color: #ddd;
   }
+
   hr {
     border: 0; // height: 1.8px;
     // box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.78);
   }
+
   .navbar {
     background-color: #0d0c0c; // background-color: #0e0616;
     // background-color: #1d1f21;
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
   }
+
   .right .github-fork-ribbon {
     background-color: #dbe6f1;
   }
+
   .github-fork-ribbon a,
   .github-fork-ribbon a:hover {
     /* Set the text properties */
     color: #111 !important;
   }
+
   .card {
     // background-color: #120320;
     background-color: #050300; //#19052c // background-image: linear-gradient(to right, #454d81, #38407d, #2b3279, #1e2574, #0f166e);
@@ -78,24 +85,31 @@ body.dark-mode {
     transition: all 0.2s ease-out 0s;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2); // opacity: 0.85;
   }
+
   .card:hover {
     box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.25);
     transition: all 0.2s ease-out 0s;
     transform: scale(1.05);
   }
+
   .text {
     // color: rgba(255, 255, 255, 1);
     color: #b9b9b9;
   }
+
   .element-name {
     color: #ddd;
   }
+
   #scroll {
     background-color: #878d92;
   }
+
   #scroll span {
     border-bottom-color: #111;
-  } // .progress-container {
+  }
+
+  // .progress-container {
   //   // background: #b09baf;
   //   background: #371e3e;
   // }
@@ -106,20 +120,24 @@ body.dark-mode {
   .fa-heart-o {
     color: #ff3030;
   }
+
   .footer {
     background-color: #0d0c0c;
     color: #b9b9b9;
   }
+
   .widget .widget-title {
     background-color: #0d0c0c;
     color: #ddd;
   }
+
   .widget {
     background-color: #0d0c0c;
     border-bottom: 1px solid #e6e6e6;
     border-top: 1px solid #e6e6e6;
     margin-top: 3em;
   }
+
   #violate {
     color: #7fd9cd;
   }
@@ -128,13 +146,16 @@ body.dark-mode {
 body.light-mode {
   background-color: #f1f1f145;
   color: #111;
+
   a {
     color: #111;
   }
+
   button {
     background-color: #111;
     color: #fff;
   }
+
   hr {
     width: 100%;
     border: 0;
@@ -142,8 +163,10 @@ body.light-mode {
     height: 1.8px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.35);
   }
+
   .cut-edge {
     z-index: -5;
+
     &--1 {
       position: absolute;
       width: 895px;
@@ -154,6 +177,7 @@ body.light-mode {
       background: linear-gradient(160deg, rgb(241, 243, 245) 0%, rgb(167, 180, 194) 100%);
       opacity: 0.16;
     }
+
     &--2 {
       position: fixed;
       width: 895px;
@@ -164,6 +188,7 @@ body.light-mode {
       background: linear-gradient(160deg, rgb(241, 243, 245) 0%, rgb(167, 180, 194) 100%);
       opacity: 0.16;
     }
+
     &--3 {
       position: fixed;
       width: 850px;
@@ -252,12 +277,14 @@ body.light-mode {
   margin-top: 8%;
   color: #000;
   vertical-align: left;
+
   .element-name {
     font-size: 1rem;
     font-family: "Lato", sans-serif;
     font-weight: 501;
     font-style: oblique;
   }
+
   .description {
     font-size: 0.75rem;
     font-family: "Montserrat", sans-serif;
@@ -292,6 +319,7 @@ body.light-mode {
 .container-10,
 .container-11 {
   display: flex;
+
   .card-1,
   .card-6,
   .card-11 {
@@ -299,6 +327,7 @@ body.light-mode {
     background-color: #fff;
     border-top: 3px solid rgba(201, 25, 46, 0.3); //  background-image: linear-gradient(to top, #ac1828, #bb1729, #cb1629, #da1429, #ea1329);
   }
+
   .card-2,
   .card-7,
   .card-12 {
@@ -306,6 +335,7 @@ body.light-mode {
     background-color: #fff;
     border-top: 3px solid rgba(28, 54, 111, 0.3); //  background-image: linear-gradient(to top, #1c366f, #1d4681, #1d5792, #1c68a3, #1d79b4);
   }
+
   .card-3,
   .card-8,
   .card-13 {
@@ -313,6 +343,7 @@ body.light-mode {
     background-color: #fff;
     border-top: 3px solid rgba(27, 169, 76, 0.3);
   }
+
   .card-4,
   .card-9,
   .card-14 {
@@ -320,32 +351,38 @@ body.light-mode {
     background-color: #fff;
     border-top: 3px solid rgba(196, 61, 125, 0.3);
   }
+
   .card-5,
   .card-10 {
     box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.2);
     background-color: #fff;
     border-top: 3px solid rgba(58, 201, 185, 0.3);
   }
+
   .card-1:hover,
   .card-6:hover,
   .card-11:hover {
     box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
   }
+
   .card-2:hover,
   .card-7:hover,
   .card-12:hover {
     box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
   }
+
   .card-3:hover,
   .card-8:hover,
   .card-13:hover {
     box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
   }
+
   .card-4:hover,
   .card-9:hover,
   .card-14:hover {
     box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
   }
+
   .card-5:hover,
   .card-10:hover {
     box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
@@ -357,9 +394,11 @@ body.light-mode {
     opacity: 0;
     transform: translateX(-10rem);
   }
+
   80% {
     transform: translateX(1rem);
   }
+
   100% {
     opacity: 1;
     transform: translate(0);
@@ -371,6 +410,7 @@ body.light-mode {
     opacity: 0;
     transform: translateY(3rem);
   }
+
   100% {
     opacity: 1;
     transform: translate(0);
@@ -450,23 +490,27 @@ body.light-mode {
   display: block;
   width: 60%;
 }
+
 .c-1 {
   position: relative;
   width: 60%;
   float: left;
 }
+
 .name {
   margin: 4% 2% 4% 2%;
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
   letter-spacing: 0.005em;
 }
+
 .photo {
   float: right;
   margin: 2% 2% 2% 0;
   width: 60px;
   border-radius: 50%;
 }
+
 // .me {
 //   float: right;
 //   width: 50%;
@@ -515,24 +559,31 @@ body.light-mode {
   display: inline;
   padding-right: 2%;
   color: #000;
+
   .fa-facebook:hover {
     color: #005b98;
   }
+
   .fa-twitter:hover {
     color: #0080c2;
   }
+
   .fa-linkedin:hover {
     color: #0077b5;
   }
+
   .fa-instagram:hover {
     color: #517fa4;
   }
+
   .fa-github:hover {
     color: #a0b4c8;
   }
+
   .fa-google-plus:hover {
     color: #dc4e41;
   }
+
   .fa-quora:hover {
     color: #b0271e;
   }
@@ -544,7 +595,7 @@ body.light-mode {
   margin: 0 2px;
 }
 
-.footer__text > * {
+.footer__text>* {
   display: block;
   text-align: center;
   font-size: 0.85rem;
@@ -566,4 +617,12 @@ body.light-mode {
 
 #violate {
   color: #241355;
+}
+
+.cl-switch-green input[type="checkbox"]:checked+.switcher {
+  background: #222;
+}
+
+.cl-switch-green input[type="checkbox"]:checked+.switcher:before {
+  background: #333;
 }

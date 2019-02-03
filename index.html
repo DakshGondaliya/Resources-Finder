@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/gh-fork-ribbon.css">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/clean-switch.css" />
     <script src="script/main.js"></script>
 </head>
 
@@ -19,9 +20,15 @@
     <div class="navbar">
         <!-- <div class="cut-edge cut-edge--1"></div> -->
         <img class="logo-light" id="logo" alt="logo" width="350px" />
-        <button type="button" class="mode-switcher" name="dark_light" onclick="toggleDarkLight()">
+        <label class="cl-switch cl-switch-large cl-switch-green mode-switcher" name="dark_light">
+            <input type="checkbox" onclick="toggleDarkLight()">
+            <span class="switcher"></span>
+            <span class="label">Dark Mode</span>
+        </label>
+
+        <!-- <button type="button" class="mode-switcher" name="dark_light" onclick="toggleDarkLight()">
             Dark/Light🌛
-        </button>
+        </button> -->
         <div class="github-fork-ribbon-wrapper right">
             <div class="github-fork-ribbon">
                 <a href="https://github.com/DakshGondaliya/Resources">Fork me on GitHub</a>
@@ -1537,9 +1544,9 @@
             <a href="#">
                 <img class="logo-light" id="logo-l" alt="logo" width="350px" />
             </a>
-            <!-- <div class="me">
-                <img src="images/me_2.PNG" alt="Daksh" class="daksh">
-            </div> -->
+                <!-- <div class="me">
+                    <img src="images/me_2.PNG" alt="Daksh" class="daksh">
+                </div> -->
             <div class="name-text">
                 <div class="c-1">
                     <img src="images/me.jpg" alt="Daksh" class="photo">

@@ -10,8 +10,6 @@ body {
   position: relative;
   margin-top: 10px;
   margin-right: 136px;
-  -webkit-box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
-          box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
   padding: 4px;
   font-family: "Lato", sans-serif;
   cursor: pointer;
@@ -34,9 +32,9 @@ body.dark-mode a {
   color: #b9b9b9;
 }
 
-body.dark-mode button {
-  background-color: #fff;
-  color: #111;
+body.dark-mode label {
+  background-color: #0d0c0c;
+  color: #ddd;
 }
 
 body.dark-mode hr {
@@ -890,5 +888,13 @@ body.light-mode .cut-edge--3 {
 
 #violate {
   color: #241355;
+}
+
+.cl-switch-green input[type="checkbox"]:checked + .switcher {
+  background: #222;
+}
+
+.cl-switch-green input[type="checkbox"]:checked + .switcher:before {
+  background: #333;
 }
 /*# sourceMappingURL=main.css.map */
