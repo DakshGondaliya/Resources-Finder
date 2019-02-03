@@ -43,7 +43,7 @@ body.dark-mode {
   background-size: cover;
   color: #fff;
   a {
-    color: #111;
+    color: #b9b9b9;
   }
   button {
     background-color: #fff;
@@ -111,15 +111,19 @@ body.dark-mode {
     color: #ff3030;
   }
   .footer {
-    background-color: #050300;
+    background-color: #0d0c0c;
   }
   .widget .widget-title {
-    background-color: #050300;
+    background-color: #0d0c0c;
+    color: #ddd;
   }
   .widget {
-    background-color: #050300;
+    background-color: #0d0c0c;
     border-bottom: 1px solid #e6e6e6;
     border-top: 1px solid #e6e6e6;
+  }
+  #violate {
+    color: #7fd9cd;
   }
 }
 

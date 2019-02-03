@@ -31,7 +31,7 @@ body.dark-mode {
 }
 
 body.dark-mode a {
-  color: #111;
+  color: #b9b9b9;
 }
 
 body.dark-mode button {
@@ -104,17 +104,22 @@ body.dark-mode .fa-heart-o {
 }
 
 body.dark-mode .footer {
-  background-color: #050300;
+  background-color: #0d0c0c;
 }
 
 body.dark-mode .widget .widget-title {
-  background-color: #050300;
+  background-color: #0d0c0c;
+  color: #ddd;
 }
 
 body.dark-mode .widget {
-  background-color: #050300;
+  background-color: #0d0c0c;
   border-bottom: 1px solid #e6e6e6;
   border-top: 1px solid #e6e6e6;
+}
+
+body.dark-mode #violate {
+  color: #7fd9cd;
 }
 
 body.light-mode {
