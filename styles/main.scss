@@ -18,7 +18,7 @@ body {
   min-width: 12%;
   font-size: 0.7em;
   border-radius: 7px;
-  animation: moveInBottom 0.5s ease-out;
+  // animation: moveInBottom 0.5s ease-out;
 }
 
 body.dark-mode {
@@ -397,18 +397,6 @@ body.light-mode {
 
   80% {
     transform: translateX(1rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(3rem);
   }
 
   100% {
