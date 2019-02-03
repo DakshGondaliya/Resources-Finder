@@ -103,8 +103,18 @@ body.dark-mode .fa-heart-o {
   color: #ff3030;
 }
 
-body.dark-mode .footer__text > * {
-  color: #000;
+body.dark-mode .footer {
+  background-color: #050300;
+}
+
+body.dark-mode .widget .widget-title {
+  background-color: #050300;
+}
+
+body.dark-mode .widget {
+  background-color: #050300;
+  border-bottom: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
 }
 
 body.light-mode {
@@ -209,7 +219,7 @@ body.light-mode .cut-edge--3 {
 
 .card {
   position: relative;
-  margin: 2.5% 4.7%;
+  margin: 2.5% 4.15%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   width: 325px !important;
@@ -768,10 +778,11 @@ body.light-mode .cut-edge--3 {
 
 .widget {
   background-color: #fff;
-  border: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
   margin-bottom: 30px;
   padding: 15px 30px;
-  margin: 10px 0 60px;
+  margin: 20px 0 60px;
   padding: 30px;
   text-align: center;
 }

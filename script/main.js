@@ -16,4 +16,5 @@ function toggleDarkLight() {
   var currentClass = body.className;
   body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
   $('img.logo-light').toggleClass('logo-dark');
+  $('img.logo-light-1').toggleClass('logo-dark-1');
 }
