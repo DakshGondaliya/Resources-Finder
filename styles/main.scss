@@ -117,7 +117,7 @@ body.dark-mode {
     background-color: #0d0c0c;
     border-bottom: 1px solid #e6e6e6;
     border-top: 1px solid #e6e6e6;
-    margin-top: 50px;
+    margin-top: 3em;
   }
   #violate {
     color: #7fd9cd;
@@ -435,10 +435,12 @@ body.light-mode {
   width: 90%;
   margin: 2% 5% 0 5%;
   height: 40px;
-  .soft-logo {
-    margin: 2% 0;
-    width: 30%;
-  }
+}
+
+#logo-l {
+  float: left;
+  margin: 2% 0;
+  width: 25%;
 }
 
 //   .name-text {
@@ -482,7 +484,7 @@ body.light-mode {
   border-top: 1px solid #e6e6e6;
   margin-bottom: 30px;
   padding: 15px 30px;
-  margin: 50px 0 60px;
+  margin: 3em 0 2.5em;
   padding: 30px;
   text-align: center;
 }
