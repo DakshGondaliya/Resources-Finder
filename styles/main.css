@@ -60,7 +60,7 @@ body.dark-mode .github-fork-ribbon a:hover {
 body.dark-mode .card {
   background-color: #050300;
   border-radius: 20px;
-  border: 2px solid #2a2d36;
+  border: 3.5px solid #2a2d36;
   -webkit-transition: all 0.2s ease-out 0s;
   transition: all 0.2s ease-out 0s;
   -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
