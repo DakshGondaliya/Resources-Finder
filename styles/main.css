@@ -22,7 +22,7 @@ body {
 }
 
 body.dark-mode {
-  background-color: #414040;
+  background-color: #111;
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
@@ -58,9 +58,9 @@ body.dark-mode .github-fork-ribbon a:hover {
 }
 
 body.dark-mode .card {
-  background-color: #000;
+  background-color: #25272a;
   border-radius: 20px;
-  border: 2px solid #2a2d36;
+  border: 2px solid #212121;
   -webkit-transition: all 0.2s ease-out 0s;
   transition: all 0.2s ease-out 0s;
   -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
@@ -85,7 +85,7 @@ body.dark-mode .element-name {
 }
 
 body.dark-mode .scroll {
-  background-color: rgba(63, 81, 181, 0.9);
+  background-color: #384483e6;
   border-bottom-color: #111;
 }
 
