@@ -41,6 +41,8 @@
   box-sizing: border-box;
   vertical-align: middle;
   cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .cl-switch .switcher:before {
@@ -103,7 +105,7 @@
 }
 
 .cl-switch.cl-switch-large .switcher {
-  width: 52px;
+  width: 65px;
   height: 22px;
 }
 

@@ -19,4 +19,8 @@ function toggleDarkLight() {
   element1.classList.toggle("logo-dark");
   var element2 = document.getElementById("logo");
   element2.classList.toggle("logo-dark");
+  var element3 = document.getElementById("sun");
+  element3.classList.toggle("dark-mode");
+  // let body = document.getElementsByTagName('body')[0];
+  // body.classList.toggle('dark-mode');
 }

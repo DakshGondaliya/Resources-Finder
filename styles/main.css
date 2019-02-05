@@ -143,7 +143,7 @@ body.light-mode .cut-edge {
 
 body.light-mode .cut-edge--1 {
   position: absolute;
-  width: 895px;
+  width: 900px;
   height: 900px;
   left: -500px;
   top: -475px;
@@ -154,7 +154,7 @@ body.light-mode .cut-edge--1 {
 
 body.light-mode .cut-edge--2 {
   position: fixed;
-  width: 895px;
+  width: 900px;
   height: 900px;
   left: -500px;
   top: -475px;
@@ -172,6 +172,165 @@ body.light-mode .cut-edge--3 {
   border-radius: 50%;
   background: linear-gradient(160deg, #f1f3f5 0%, #a7b4c2 100%);
   opacity: 0.5;
+}
+
+#sun {
+  position: relative;
+  margin-right: 136px;
+  float: right;
+  top: 50%;
+  width: 45px;
+  height: 45px;
+  background: #ffb347;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#ffcc33), to(#ffb347));
+  background: linear-gradient(to right, #ffcc33, #ffb347);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.1, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.1, 1);
+}
+
+#sun div {
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  width: 1.5px;
+  background: #ffb347;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#ffcc33), to(#ffb347));
+  background: linear-gradient(to right, #ffcc33, #ffb347);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.1, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.1, 1);
+}
+
+#sun div:nth-child(odd) {
+  height: 20px;
+  -webkit-transform-origin: center 45px;
+          transform-origin: center 45px;
+}
+
+#sun div:nth-child(even) {
+  height: 25px;
+  -webkit-transform-origin: center 45px;
+          transform-origin: center 45px;
+}
+
+#sun div:nth-child(1) {
+  -webkit-transform: translate(-50%) scaleY(1);
+          transform: translate(-50%) scaleY(1);
+}
+
+#sun div:nth-child(2) {
+  -webkit-transform: translate(-50%) rotate(30deg) scaleY(1);
+          transform: translate(-50%) rotate(30deg) scaleY(1);
+}
+
+#sun div:nth-child(3) {
+  -webkit-transform: translate(-50%) rotate(60deg);
+          transform: translate(-50%) rotate(60deg);
+}
+
+#sun div:nth-child(4) {
+  -webkit-transform: translate(-50%) rotate(90deg);
+          transform: translate(-50%) rotate(90deg);
+}
+
+#sun div:nth-child(5) {
+  -webkit-transform: translate(-50%) rotate(120deg);
+          transform: translate(-50%) rotate(120deg);
+}
+
+#sun div:nth-child(6) {
+  -webkit-transform: translate(-50%) rotate(150deg);
+          transform: translate(-50%) rotate(150deg);
+}
+
+#sun div:nth-child(7) {
+  -webkit-transform: translate(-50%) rotate(180deg);
+          transform: translate(-50%) rotate(180deg);
+}
+
+#sun div:nth-child(8) {
+  -webkit-transform: translate(-50%) rotate(210deg);
+          transform: translate(-50%) rotate(210deg);
+}
+
+#sun div:nth-child(9) {
+  -webkit-transform: translate(-50%) rotate(240deg);
+          transform: translate(-50%) rotate(240deg);
+}
+
+#sun div:nth-child(10) {
+  -webkit-transform: translate(-50%) rotate(270deg);
+          transform: translate(-50%) rotate(270deg);
+}
+
+#sun div:nth-child(11) {
+  -webkit-transform: translate(-50%) rotate(300deg);
+          transform: translate(-50%) rotate(300deg);
+}
+
+#sun div:nth-child(12) {
+  -webkit-transform: translate(-50%) rotate(330deg);
+          transform: translate(-50%) rotate(330deg);
+}
+
+.dark-mode #sun {
+  background: #ddd;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(1.5);
+          transform: translate(-50%, -50%) rotate(45deg) scale(1.5);
+}
+
+#sun:before,
+#sun:after {
+  position: absolute;
+  content: '';
+  border-radius: 50%;
+  background-color: #ccc;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+#sun:after {
+  width: 20px;
+  height: 15px;
+  top: 15%;
+  left: 35%;
+}
+
+#sun:before {
+  width: 25px;
+  height: 25px;
+  top: 20%;
+  left: 12%;
+}
+
+.dark-mode #sun:before,
+.dark-mode #sun:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.dark-mode #sun div {
+  height: 0;
+  opacity: 0;
 }
 
 .navbar {
