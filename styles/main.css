@@ -176,9 +176,9 @@ body.light-mode .cut-edge--3 {
 
 #sun {
   position: relative;
-  margin-right: 136px;
+  margin-right: 125px;
   float: right;
-  top: 50%;
+  top: 50px;
   width: 45px;
   height: 45px;
   background: #ffb347;
