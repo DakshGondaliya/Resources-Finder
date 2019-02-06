@@ -369,7 +369,6 @@ body.light-mode {
 }
 
 @keyframes octocat-wave {
-
   0%,
   100% {
     transform: rotate(0);
@@ -445,12 +444,14 @@ body.light-mode {
 // }
 .ref-heading {
   //  text-align: center;
-  margin-top: 2.4em;
+  margin-top: 2.45em;
   margin-left: 4.15%;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.15em;
+  // text-transform: uppercase;
+  font-family: "Google Sans", sans-serif;
+  letter-spacing: 0.08em;
+  font-weight: 445;
+  font-size: 1.2em;
 }
 
 .card {
@@ -474,13 +475,13 @@ body.light-mode {
 
   .element-name {
     font-size: 1rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 501;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 525;
     font-style: oblique;
   }
 
   .description {
-    font-size: 0.75rem;
+    font-size: 0.75em;
     font-family: "Montserrat", sans-serif;
   }
 }
@@ -775,7 +776,7 @@ body.light-mode {
   background-color: #fff;
   color: #10242b;
   display: inline-block;
-  font-family: "Poppins", sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-size: 20px;
   font-weight: 500;
   margin: -48px auto 0px;
@@ -832,7 +833,7 @@ body.light-mode {
   margin: 0 2px;
 }
 
-.footer__text>* {
+.footer__text > * {
   display: block;
   text-align: center;
   font-size: 0.85rem;
@@ -841,7 +842,7 @@ body.light-mode {
 
 .footer__text {
   margin-top: -1em;
-  font-family: "Lato", sans-serif; // background-color: #F3F3F7;
+  font-family: "Google Sans", sans-serif; // background-color: #F3F3F7;
 }
 
 .footer_para {
@@ -856,10 +857,10 @@ body.light-mode {
   color: #241355;
 }
 
-.cl-switch-green input[type="checkbox"]:checked+.switcher {
+.cl-switch-green input[type="checkbox"]:checked + .switcher {
   background: #222;
 }
 
-.cl-switch-green input[type="checkbox"]:checked+.switcher:before {
+.cl-switch-green input[type="checkbox"]:checked + .switcher:before {
   background: #333;
 }
