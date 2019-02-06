@@ -76,6 +76,10 @@ body.dark-mode .card:hover {
           transform: scale(1.05);
 }
 
+body.dark-mode .card:hover .text {
+  color: #fff;
+}
+
 body.dark-mode .card:hover .element-name {
   color: #ffcb2f;
 }
@@ -89,7 +93,7 @@ body.dark-mode .element-name {
 }
 
 body.dark-mode .scroll {
-  background-color: #384483e6;
+  background-color: #2d42b0e6;
   border-bottom-color: #111;
 }
 
@@ -116,6 +120,16 @@ body.dark-mode .widget {
 
 body.dark-mode #violate {
   color: #7fd9cd;
+}
+
+body.dark-mode .fa-facebook:hover,
+body.dark-mode .fa-twitter:hover,
+body.dark-mode .fa-linkedin:hover,
+body.dark-mode .fa-instagram:hover,
+body.dark-mode .fa-github:hover,
+body.dark-mode .fa-medium:hover,
+body.dark-mode .fa-quora:hover {
+  color: #f0f0f0;
 }
 
 body.light-mode {

@@ -91,6 +91,10 @@ body.dark-mode {
     transition: all 0.2s ease-out 0s;
     transform: scale(1.05);
 
+    .text {
+      color: #fff;
+    }
+
     .element-name {
       color: #ffcb2f;
     }
@@ -108,7 +112,7 @@ body.dark-mode {
   .scroll {
     // background-color: #878d92;
     // background-color: rgba(63, 81, 181, 0.9);
-    background-color: #384483e6;
+    background-color: #2d42b0e6; //#384483e6;
     border-bottom-color: #111;
   }
 
@@ -143,6 +147,16 @@ body.dark-mode {
 
   #violate {
     color: #7fd9cd;
+  }
+
+  .fa-facebook:hover,
+  .fa-twitter:hover,
+  .fa-linkedin:hover,
+  .fa-instagram:hover,
+  .fa-github:hover,
+  .fa-medium:hover,
+  .fa-quora:hover {
+    color: #f0f0f0;
   }
 }
 
