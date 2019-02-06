@@ -58,7 +58,7 @@ body.dark-mode .github-fork-ribbon a:hover {
 }
 
 body.dark-mode .card {
-  background-color: #25272a;
+  background-color: #242f42;
   border-radius: 20px;
   border: 2px solid #212121;
   -webkit-transition: all 0.2s ease-out 0s;
@@ -74,6 +74,10 @@ body.dark-mode .card:hover {
   transition: all 0.2s ease-out 0s;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+
+body.dark-mode .card:hover .element-name {
+  color: #ffcb2f;
 }
 
 body.dark-mode .text {
@@ -297,7 +301,7 @@ body.light-mode .cut-edge--3 {
 #sun:before,
 #sun:after {
   position: absolute;
-  content: '';
+  content: "";
   border-radius: 50%;
   background-color: #ccc;
   -webkit-transform: scale(0);
