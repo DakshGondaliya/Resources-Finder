@@ -116,6 +116,8 @@ Typography
 5. Poppins
 6. Raleway
 7. Roboto
+8. Source Sans Pro
+9. Arial
 
 bold
 oblique
