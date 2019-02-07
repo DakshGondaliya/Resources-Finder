@@ -126,3 +126,33 @@ regular
 
 300, 400, 500, 600, 700
 450, 550
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+.fa-facebook:hover {
+  color: #005b98;
+}
+
+.fa-twitter:hover {
+  color: #0080c2;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.fa-instagram:hover {
+  color: #517fa4;
+}
+
+.fa-github:hover {
+  color: #a0b4c8;
+}
+
+.fa-medium:hover {
+  color: #2bc5b4;
+}
+
+.fa-quora:hover {
+  color: #b0271e;
+}
