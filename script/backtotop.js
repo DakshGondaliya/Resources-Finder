@@ -3,7 +3,13 @@
 //** v1.1 (April 7th, 09'):
 //** 1) Adds ability to scroll to an absolute position (from top of page) or specific element on the page instead.
 //** 2) Fixes scroll animation not working in Opera. 
-
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 50) {
+    $('#topcontrol:hidden').stop(true, true).fadeIn();
+  } else {
+    $('#topcontrol').stop(true, true).fadeOut();
+  }
+});
 
 var scrolltotop = {
   //startline: Integer. Number of pixels from top of doc scrollbar is scrolled before showing control
@@ -12,7 +18,7 @@ var scrolltotop = {
     startline: 100,
     scrollto: 0,
     scrollduration: 500,
-    fadeduration: [500, 100]
+    fadeduration: [500, 150]
   },
   controlHTML: '', //<img src="assets/img/up.png" style="width:51px; height:42px" /> //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
   controlattrs: {
@@ -82,9 +88,6 @@ var scrolltotop = {
           right: mainobj.controlattrs.offsetx,
           opacity: 0,
           cursor: 'pointer'
-        })
-        .attr({
-          title: 'Scroll Back to Top'
         })
         .click(function () {
           mainobj.scrollup();
