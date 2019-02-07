@@ -65,9 +65,10 @@
         </div> -->
     </div>
     <div class="main-content">
-        <div class='scrolltop'>
+        <!-- <div class='scrolltop'>
             <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i><span></span></div>
-        </div>
+        </div> -->
+        <div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 1; cursor: pointer;"></div>
         <!-- <div class=scrolltop">
             <a href="#" id="scroll" style="display: none;""><span></span></a>
         </div> -->
@@ -1707,7 +1708,7 @@
         });
     </script> -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('.scrolltop:hidden').stop(true, true).fadeIn();
@@ -1724,7 +1725,8 @@
                 false
             })
         })
-    </script>
+    </script> -->
+    <script src="assets/js/backtotop.js"></script>
     <!-- Place this tag in your head or just before your close body tag. -->
     <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
 </body>
