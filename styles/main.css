@@ -1034,14 +1034,25 @@ body.light-mode .cut-edge--3 {
   border-radius: 50%;
   margin-right: 1%;
   color: #000;
+  background-color: rgba(0, 0, 0, 0.09);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
 .mysocial:hover {
-  background-color: rgba(0, 0, 0, 0.09);
+  background-color: #212121;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.mysocial:hover .fa-facebook,
+.mysocial:hover .fa-twitter,
+.mysocial:hover .fa-linkedin,
+.mysocial:hover .fa-instagram,
+.mysocial:hover .fa-github,
+.mysocial:hover .fa-medium,
+.mysocial:hover .fa-quora {
+  color: #f0f0f0;
 }
 
 .fa-heart-o {
