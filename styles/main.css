@@ -92,8 +92,8 @@ body.dark-mode .element-name {
   color: #ddd;
 }
 
-body.dark-mode .scroll {
-  background-color: #2d42b0e6;
+body.dark-mode #topcontrol {
+  background-color: #29377fe6;
   border-bottom-color: #111;
 }
 
@@ -931,25 +931,30 @@ body.light-mode .cut-edge--3 {
 #topcontrol {
   color: #fff;
   z-index: 100;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   font-size: 20px;
   background: #ff3e4d;
   -webkit-box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.25);
           box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.25);
-  position: relative;
+  position: fixed;
   right: 14px !important;
   bottom: 11px !important;
-  border-radius: 3px !important;
+  border-radius: 60px !important;
 }
 
 #topcontrol:after {
-  top: 2px;
-  left: 8.5px;
   content: "\f106";
   position: absolute;
   text-align: center;
   font-family: Fontawesome;
+  font-size: 1.25em;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -15px;
+  height: 0;
+  width: 0;
 }
 
 #topcontrol:hover {
