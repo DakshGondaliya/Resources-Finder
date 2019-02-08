@@ -123,7 +123,7 @@ body.dark-mode #violate {
 }
 
 body.dark-mode .mysocial:hover {
-  background-color: rgba(255, 255, 255, 0.09);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 body.dark-mode .mysocial:hover .fa-facebook,
@@ -691,10 +691,10 @@ body.light-mode .cut-edge--3 {
 .container-10 .card-10,
 .container-11 .card-5,
 .container-11 .card-10 {
-  -webkit-box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.2);
-          box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.2);
+  -webkit-box-shadow: 0 10px 25px 0 rgba(13, 145, 161, 0.2);
+          box-shadow: 0 10px 25px 0 rgba(13, 145, 161, 0.2);
   background-color: #fff;
-  border-top: 3px solid rgba(58, 201, 185, 0.3);
+  border-top: 3px solid rgba(13, 145, 161, 0.3);
 }
 
 .container-1 .card-1:hover,
@@ -730,8 +730,8 @@ body.light-mode .cut-edge--3 {
 .container-11 .card-1:hover,
 .container-11 .card-6:hover,
 .container-11 .card-11:hover {
-  -webkit-box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
-          box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
+  -webkit-box-shadow: 0 35px 80px 5px rgba(201, 25, 46, 0.25);
+          box-shadow: 0 35px 80px 5px rgba(201, 25, 46, 0.25);
 }
 
 .container-1 .card-2:hover,
@@ -767,8 +767,8 @@ body.light-mode .cut-edge--3 {
 .container-11 .card-2:hover,
 .container-11 .card-7:hover,
 .container-11 .card-12:hover {
-  -webkit-box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
-          box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
+  -webkit-box-shadow: 0 35px 80px 5px rgba(28, 54, 111, 0.25);
+          box-shadow: 0 35px 80px 5px rgba(28, 54, 111, 0.25);
 }
 
 .container-1 .card-3:hover,
@@ -804,8 +804,8 @@ body.light-mode .cut-edge--3 {
 .container-11 .card-3:hover,
 .container-11 .card-8:hover,
 .container-11 .card-13:hover {
-  -webkit-box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
-          box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
+  -webkit-box-shadow: 0 35px 80px 5px rgba(27, 169, 76, 0.25);
+          box-shadow: 0 35px 80px 5px rgba(27, 169, 76, 0.25);
 }
 
 .container-1 .card-4:hover,
@@ -841,8 +841,8 @@ body.light-mode .cut-edge--3 {
 .container-11 .card-4:hover,
 .container-11 .card-9:hover,
 .container-11 .card-14:hover {
-  -webkit-box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
-          box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
+  -webkit-box-shadow: 0 35px 80px 5px rgba(196, 61, 125, 0.25);
+          box-shadow: 0 35px 80px 5px rgba(196, 61, 125, 0.25);
 }
 
 .container-1 .card-5:hover,
@@ -867,8 +867,8 @@ body.light-mode .cut-edge--3 {
 .container-10 .card-10:hover,
 .container-11 .card-5:hover,
 .container-11 .card-10:hover {
-  -webkit-box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
-          box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
+  -webkit-box-shadow: 0 35px 80px 5px rgba(13, 145, 161, 0.25);
+          box-shadow: 0 35px 80px 5px rgba(13, 145, 161, 0.25);
 }
 
 @-webkit-keyframes moveInLeft {
@@ -1040,7 +1040,9 @@ body.light-mode .cut-edge--3 {
 }
 
 .mysocial:hover {
-  background-color: #212121;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -1052,7 +1054,7 @@ body.light-mode .cut-edge--3 {
 .mysocial:hover .fa-github,
 .mysocial:hover .fa-medium,
 .mysocial:hover .fa-quora {
-  color: #f0f0f0;
+  color: #2bc5b4;
 }
 
 .fa-heart-o {

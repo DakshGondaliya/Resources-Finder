@@ -151,7 +151,7 @@ body.dark-mode {
   }
 
   .mysocial:hover {
-    background-color: rgba(255, 255, 255, 0.09);
+    background-color: rgba(255, 255, 255, 0.1);
 
     .fa-facebook,
     .fa-twitter,
@@ -373,6 +373,7 @@ body.light-mode {
 }
 
 @keyframes octocat-wave {
+
   0%,
   100% {
     transform: rotate(0);
@@ -553,38 +554,43 @@ body.light-mode {
 
   .card-5,
   .card-10 {
-    box-shadow: 0 10px 25px 0 rgba(58, 201, 185, 0.2);
+    box-shadow: 0 10px 25px 0 rgba(13, 145, 161, 0.2);
     background-color: #fff;
-    border-top: 3px solid rgba(58, 201, 185, 0.3);
+    border-top: 3px solid rgba(13, 145, 161, 0.3);
   }
 
   .card-1:hover,
   .card-6:hover,
   .card-11:hover {
-    box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
+    // box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
+    box-shadow: 0 35px 80px 5px rgba(201, 25, 46, 0.25);
   }
 
   .card-2:hover,
   .card-7:hover,
   .card-12:hover {
-    box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
+    // box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
+    box-shadow: 0 35px 80px 5px rgba(28, 54, 111, 0.25);
   }
 
   .card-3:hover,
   .card-8:hover,
   .card-13:hover {
-    box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
+    // box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
+    box-shadow: 0 35px 80px 5px rgba(27, 169, 76, 0.25);
   }
 
   .card-4:hover,
   .card-9:hover,
   .card-14:hover {
-    box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
+    // box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
+    box-shadow: 0 35px 80px 5px rgba(196, 61, 125, 0.25);
   }
 
   .card-5:hover,
   .card-10:hover {
-    box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
+    // box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
+    box-shadow: 0 35px 80px 5px rgba(13, 145, 161, 0.25);
   }
 }
 
@@ -843,7 +849,8 @@ body.light-mode {
 }
 
 .mysocial:hover {
-  background-color: #212121;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 
   .fa-facebook,
@@ -853,7 +860,7 @@ body.light-mode {
   .fa-github,
   .fa-medium,
   .fa-quora {
-    color: #f0f0f0;
+    color: #2bc5b4;
   }
 }
 
@@ -863,7 +870,7 @@ body.light-mode {
   margin: 0 2px;
 }
 
-.footer__text > * {
+.footer__text>* {
   display: block;
   text-align: center;
   font-size: 0.85rem;
@@ -887,10 +894,10 @@ body.light-mode {
   color: #241355;
 }
 
-.cl-switch-green input[type="checkbox"]:checked + .switcher {
+.cl-switch-green input[type="checkbox"]:checked+.switcher {
   background: #222;
 }
 
-.cl-switch-green input[type="checkbox"]:checked + .switcher:before {
+.cl-switch-green input[type="checkbox"]:checked+.switcher:before {
   background: #333;
 }
