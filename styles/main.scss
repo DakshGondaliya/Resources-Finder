@@ -163,6 +163,14 @@ body.dark-mode {
       color: #f0f0f0;
     }
   }
+
+  #sun {
+    background: #dddddd;
+    box-shadow: 0 0 5px #dddddd,
+      0 0 10px #dddddd,
+      0 0 50px #fff,
+      inset 0 0 20px #fff;
+  }
 }
 
 body.light-mode {
@@ -240,7 +248,10 @@ body.light-mode {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffcc33, #ffb347);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  box-shadow: 0 0 5px orange,
+    0 0 10px orange,
+    0 0 50px yellow,
+    inset 0 0 20px yellow;
   border-radius: 50%;
   cursor: pointer;
   transform: translate(-50%, -50%);
@@ -256,7 +267,7 @@ body.light-mode {
   width: 1.5px;
 
   // background-color: #ffde3a;
-  background: #ffb347;
+  background: orange;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffcc33, #ffb347);
   /* Chrome 10-25, Safari 5.1-6 */
@@ -275,7 +286,7 @@ body.light-mode {
 
 #sun div:nth-child(even) {
   height: 25px;
-  transform-origin: center 45px;
+  transform-origin: center 46px;
 }
 
 #sun div:nth-child(1) {

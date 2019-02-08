@@ -136,6 +136,12 @@ body.dark-mode .mysocial:hover .fa-quora {
   color: #f0f0f0;
 }
 
+body.dark-mode #sun {
+  background: #dddddd;
+  -webkit-box-shadow: 0 0 5px #dddddd, 0 0 10px #dddddd, 0 0 50px #fff, inset 0 0 20px #fff;
+          box-shadow: 0 0 5px #dddddd, 0 0 10px #dddddd, 0 0 50px #fff, inset 0 0 20px #fff;
+}
+
 body.light-mode {
   background-color: #f1f1f145;
   color: #111;
@@ -209,6 +215,8 @@ body.light-mode .cut-edge--3 {
   background: -webkit-gradient(linear, left top, right top, from(#ffcc33), to(#ffb347));
   background: linear-gradient(to right, #ffcc33, #ffb347);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-box-shadow: 0 0 5px orange, 0 0 10px orange, 0 0 50px yellow, inset 0 0 20px yellow;
+          box-shadow: 0 0 5px orange, 0 0 10px orange, 0 0 50px yellow, inset 0 0 20px yellow;
   border-radius: 50%;
   cursor: pointer;
   -webkit-transform: translate(-50%, -50%);
@@ -224,7 +232,7 @@ body.light-mode .cut-edge--3 {
   top: -22px;
   left: 50%;
   width: 1.5px;
-  background: #ffb347;
+  background: orange;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#ffcc33), to(#ffb347));
@@ -246,8 +254,8 @@ body.light-mode .cut-edge--3 {
 
 #sun div:nth-child(even) {
   height: 25px;
-  -webkit-transform-origin: center 45px;
-          transform-origin: center 45px;
+  -webkit-transform-origin: center 46px;
+          transform-origin: center 46px;
 }
 
 #sun div:nth-child(1) {
