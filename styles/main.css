@@ -487,6 +487,12 @@ body.light-mode .cut-edge--3 {
 .text .description {
   font-size: 0.8em;
   font-family: "Arial", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  word-spacing: 0;
+  line-height: 1.2em;
+  vertical-align: baseline;
 }
 
 .card:hover {
