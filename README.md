@@ -1,5 +1,5 @@
- <p align="center"><img src="images/logo_18.PNG" align="center" width="450"><p>
-
+ <p align="center"><img src="images/logo_7.PNG" align="center" width="450"><p>
+<br>
 <!--<p align="center">
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![HitCount](http://hits.dwyl.io/DakshGondaliya/Resources-Finder.svg)](http://hits.dwyl.io/DakshGondaliya/Resources-Finder)
 </p>-->
