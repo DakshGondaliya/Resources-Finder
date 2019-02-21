@@ -40,82 +40,69 @@ body.dark-mode {
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
-
   a {
     color: #b9b9b9;
   }
-
   label {
     background-color: #0d0c0c;
     color: #ddd;
   }
-
   hr {
     border: 0; // height: 1.8px;
     // box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.78);
   }
-
   .navbar {
     background-color: #0d0c0c; // background-color: #0e0616;
     // background-color: #1d1f21;
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
   }
-
   .right .github-fork-ribbon {
     background-color: #dbe6f1;
   }
-
   .github-fork-ribbon a,
   .github-fork-ribbon a:hover {
     /* Set the text properties */
     color: #111 !important;
   }
-
   .card {
     // background-color: #120320;
-    background-color: #25272a; //#19052c // background-image: linear-gradient(to right, #454d81, #38407d, #2b3279, #1e2574, #0f166e);
+    background-color: #25272a;
+    //#19052c // background-image: linear-gradient(to right, #454d81, #38407d, #2b3279, #1e2574, #0f166e);
     border-radius: 20px; // border-image-slice: 1;
     // border-image: linear-gradient(to left, #743ad5, #d53a9d);
     border: 2px solid #212121; //#891339; // #f48fb1; // border-left: 4px solid #5a0b4b 602b61;
     // border-top: 4px solid #6b1b5b;
     // border-right: 4px solid #4f4f8a;
     // border-bottom: 4px solid #333399;
-    transition: all 0.2s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2); // opacity: 0.85;
   }
-
   .card:hover {
-    box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.25);
-    transition: all 0.2s ease-out 0s;
+    // box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.3s ease-out 0s;
     transform: scale(1.05);
-
     .text {
       color: #fff;
     }
-
     .element-name {
       // color: #ffcb2f,a4eda4;
       color: #6ee2b0;
     }
   }
-
   .text {
     // color: rgba(255, 255, 255, 1);
     color: #b9b9b9;
   }
-
   .element-name {
     color: #ddd;
   }
-
   #topcontrol {
     // background-color: #878d92;
     // background-color: rgba(63, 81, 181, 0.9);
     background-color: #29377fe6; //#2d42b0e6; //#384483e6;
     border-bottom-color: #111;
-  }
-
-  // .progress-container {
+  } // .progress-container {
   //   // background: #b09baf;
   //   background: #371e3e;
   // }
@@ -126,31 +113,25 @@ body.dark-mode {
   .fa-heart-o {
     color: #ff3030;
   }
-
   .footer {
     background-color: #0d0c0c;
     color: #b9b9b9;
   }
-
   .widget .widget-title {
     background-color: #0d0c0c;
     color: #ddd;
   }
-
   .widget {
     background-color: #0d0c0c;
     border-bottom: 1px solid #e6e6e6;
     border-top: 1px solid #e6e6e6;
     margin-top: 3em;
   }
-
   #violate {
     color: #7fd9cd;
   }
-
   .mysocial:hover {
     background-color: rgba(255, 255, 255, 0.1);
-
     .fa-facebook,
     .fa-twitter,
     .fa-linkedin,
@@ -161,7 +142,6 @@ body.dark-mode {
       color: #f0f0f0;
     }
   }
-
   #sun {
     background: #dddddd;
     box-shadow: 0 0 5px #dddddd, 0 0 10px #dddddd, 0 0 50px #fff, inset 0 0 20px #fff;
@@ -171,16 +151,13 @@ body.dark-mode {
 body.light-mode {
   background-color: #f1f1f145;
   color: #111;
-
   a {
     color: #111;
   }
-
   button {
     background-color: #111;
     color: #fff;
   }
-
   hr {
     width: 100%;
     border: 0;
@@ -188,10 +165,8 @@ body.light-mode {
     height: 1.8px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.35);
   }
-
   .cut-edge {
     z-index: -5;
-
     &--1 {
       position: absolute;
       width: 900px;
@@ -202,7 +177,6 @@ body.light-mode {
       background: linear-gradient(160deg, rgb(241, 243, 245) 0%, rgb(167, 180, 194) 100%);
       opacity: 0.16;
     }
-
     &--2 {
       position: fixed;
       width: 900px;
@@ -213,7 +187,6 @@ body.light-mode {
       background: linear-gradient(160deg, rgb(241, 243, 245) 0%, rgb(167, 180, 194) 100%);
       opacity: 0.16;
     }
-
     &--3 {
       position: fixed;
       width: 850px;
@@ -225,7 +198,6 @@ body.light-mode {
       opacity: 0.5;
     }
   }
-
   .footer {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -374,17 +346,14 @@ body.light-mode {
 }
 
 @keyframes octocat-wave {
-
   0%,
   100% {
     transform: rotate(0);
   }
-
   20%,
   60% {
     transform: rotate(-25deg);
   }
-
   40%,
   80% {
     transform: rotate(10deg);
@@ -395,7 +364,6 @@ body.light-mode {
   .github-corner:hover .octo-arm {
     animation: none;
   }
-
   .github-corner .octo-arm {
     animation: octocat-wave 560ms ease-in-out;
   }
@@ -477,13 +445,11 @@ body.light-mode {
   margin-top: 8%;
   color: #000;
   vertical-align: left;
-
   .element-name {
     font-size: 1rem;
     font-family: "GoogleSans-MediumItalic", sans-serif; // font-style: oblique;
     // font-weight: 500;
   }
-
   .description {
     font-size: 0.8em;
     font-family: "Arial", Roboto, sans-serif;
@@ -524,7 +490,6 @@ body.light-mode {
 .container-10,
 .container-11 {
   display: flex;
-
   .card-1,
   .card-6,
   .card-11 {
@@ -532,7 +497,6 @@ body.light-mode {
     background-color: #fff;
     border-top: 3px solid rgba(201, 25, 46, 0.3); //  background-image: linear-gradient(to top, #ac1828, #bb1729, #cb1629, #da1429, #ea1329);
   }
-
   .card-2,
   .card-7,
   .card-12 {
@@ -540,7 +504,6 @@ body.light-mode {
     background-color: #fff;
     border-top: 3px solid rgba(28, 54, 111, 0.3); //  background-image: linear-gradient(to top, #1c366f, #1d4681, #1d5792, #1c68a3, #1d79b4);
   }
-
   .card-3,
   .card-8,
   .card-13 {
@@ -548,7 +511,6 @@ body.light-mode {
     background-color: #fff;
     border-top: 3px solid rgba(27, 169, 76, 0.3);
   }
-
   .card-4,
   .card-9,
   .card-14 {
@@ -556,42 +518,36 @@ body.light-mode {
     background-color: #fff;
     border-top: 3px solid rgba(196, 61, 125, 0.3);
   }
-
   .card-5,
   .card-10 {
     box-shadow: 0 10px 25px 0 rgba(13, 145, 161, 0.2);
     background-color: #fff;
     border-top: 3px solid rgba(13, 145, 161, 0.3);
   }
-
   .card-1:hover,
   .card-6:hover,
   .card-11:hover {
     // box-shadow: 0 25px 30px 0 rgba(201, 25, 46, 0.25);
     box-shadow: 0 35px 80px 5px rgba(201, 25, 46, 0.25);
   }
-
   .card-2:hover,
   .card-7:hover,
   .card-12:hover {
     // box-shadow: 0 25px 30px 0 rgba(28, 54, 111, 0.25);
     box-shadow: 0 35px 80px 5px rgba(28, 54, 111, 0.25);
   }
-
   .card-3:hover,
   .card-8:hover,
   .card-13:hover {
     // box-shadow: 0 25px 30px 0 rgba(27, 169, 76, 0.25);
     box-shadow: 0 35px 80px 5px rgba(27, 169, 76, 0.25);
   }
-
   .card-4:hover,
   .card-9:hover,
   .card-14:hover {
     // box-shadow: 0 25px 30px 0 rgba(196, 61, 125, 0.25);
     box-shadow: 0 35px 80px 5px rgba(196, 61, 125, 0.25);
   }
-
   .card-5:hover,
   .card-10:hover {
     // box-shadow: 0 25px 30px 0 rgba(58, 201, 185, 0.25);
@@ -604,11 +560,9 @@ body.light-mode {
     opacity: 0;
     transform: translateX(-10rem);
   }
-
   80% {
     transform: translateX(1rem);
   }
-
   100% {
     opacity: 1;
     transform: translate(0);
@@ -721,8 +675,7 @@ body.light-mode {
   width: 50px;
   height: 50px;
   font-size: 20px;
-  background: #ff3e4d;
-  // box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.25);
+  background: #ff3e4d; // box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.25);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 5px 5px rgba(0, 0, 0, 0.23);
   position: fixed;
   right: 14px !important;
@@ -852,11 +805,9 @@ body.light-mode {
 }
 
 .mysocial:hover {
-  background-color: #fff;
-  // box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.30), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  background-color: #fff; // box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
   transition: all 0.2s ease-in-out;
-
   .fa-facebook,
   .fa-twitter,
   .fa-linkedin,
@@ -874,7 +825,7 @@ body.light-mode {
   margin: 0 2px;
 }
 
-.footer__text>* {
+.footer__text > * {
   display: block;
   text-align: center;
   font-size: 0.85rem;
@@ -898,10 +849,10 @@ body.light-mode {
   color: #241355;
 }
 
-.cl-switch-green input[type="checkbox"]:checked+.switcher {
+.cl-switch-green input[type="checkbox"]:checked + .switcher {
   background: #222;
 }
 
-.cl-switch-green input[type="checkbox"]:checked+.switcher:before {
+.cl-switch-green input[type="checkbox"]:checked + .switcher:before {
   background: #333;
 }
