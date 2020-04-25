@@ -17,7 +17,7 @@ It contains some useful resources like development tools, HTML, CSS, Javascript,
 <br>
 <br>
 <p align="center"> Built with ❤ in the Green city Gandhinagar, India by
- <a href="http://dakshgondaliya.me/">Daksh Gondaliya</a>
+ <a href="http://dakshgondaliya.live/">Daksh Gondaliya</a>
 </p>
 <p align="center">
 © 2019 by RESOURCES FINDER. All rights reserved.
